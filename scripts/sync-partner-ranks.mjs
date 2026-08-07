@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';
+const SRC='https://raw.githubusercontent.com/zhudikangta/paltoolbox/main/PalToolbox/%E6%B8%B8%E6%88%8F%E5%86%85%E5%AE%B9/%E5%B9%BB%E5%85%BD%E5%B8%95%E9%B2%811.0/%E6%95%B0%E6%8D%AE%E5%8C%85/%E4%BC%99%E4%BC%B4%E6%8A%80%E8%83%BD.json';
+const r=await fetch(SRC);if(!r.ok)throw new Error(`Partner source HTTP ${r.status}`);const src=await r.json();
+const byId={};for(const item of src.catalog||[]){if(item.category!=='普通帕鲁'||!item.displayId)continue;const fact=src.partnerSkills?.[item.palId];if(!fact)continue;const tables=[];if(fact.rankTable)tables.push(fact.rankTable);if(Array.isArray(fact.rankTables))tables.push(...fact.rankTables);byId[String(item.displayId)]={sourcePalId:item.palId,skillName:fact.skillName||'',description:fact.description||'',rankTables:tables,hasPartnerSkill:fact.hasPartnerSkill!==false,descriptionStatus:fact.descriptionStatus||'',sourceUrl:fact.source?.url||''};}
+const out={meta:{gameVersion:src.meta?.source?.gameVersion||'v1.0.0',generatedAt:new Date().toISOString(),source:'PalDB-derived verified partner skill dataset',count:Object.keys(byId).length},byId};
+if(out.meta.count<290)throw new Error(`Expected >=290 ordinary partner records, got ${out.meta.count}`);
+await fs.mkdir('data',{recursive:true});await fs.writeFile('data/partner-ranks-local.json',JSON.stringify(out,null,2)+'\n');console.log(`Wrote ${out.meta.count} partner records`);
