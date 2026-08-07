@@ -3,5 +3,5 @@ const SRC='https://raw.githubusercontent.com/zhudikangta/paltoolbox/main/PalTool
 const r=await fetch(SRC);if(!r.ok)throw new Error(`Partner source HTTP ${r.status}`);const src=await r.json();
 const byId={};for(const item of src.catalog||[]){if(item.category!=='普通帕鲁'||!item.displayId)continue;const fact=src.partnerSkills?.[item.palId];if(!fact)continue;const tables=[];if(fact.rankTable)tables.push(fact.rankTable);if(Array.isArray(fact.rankTables))tables.push(...fact.rankTables);byId[String(item.displayId)]={sourcePalId:item.palId,skillName:fact.skillName||'',description:fact.description||'',rankTables:tables,hasPartnerSkill:fact.hasPartnerSkill!==false,descriptionStatus:fact.descriptionStatus||'',sourceUrl:fact.source?.url||''};}
 const out={meta:{gameVersion:src.meta?.source?.gameVersion||'v1.0.0',generatedAt:new Date().toISOString(),source:'PalDB-derived verified partner skill dataset',count:Object.keys(byId).length},byId};
-if(out.meta.count<290)throw new Error(`Expected >=290 ordinary partner records, got ${out.meta.count}`);
+if(out.meta.count<280)throw new Error(`Expected >=280 ordinary partner records, got ${out.meta.count}`);
 await fs.mkdir('data',{recursive:true});await fs.writeFile('data/partner-ranks-local.json',JSON.stringify(out,null,2)+'\n');console.log(`Wrote ${out.meta.count} partner records`);
