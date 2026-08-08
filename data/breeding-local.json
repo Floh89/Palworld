@@ -1,0 +1,1864 @@
+{
+  "meta": {
+    "gameVersion": "v1.0.0",
+    "generatedAt": "2026-08-08T15:01:36.921Z",
+    "source": "Palworld special breeding table",
+    "children": 103,
+    "combinations": 183
+  },
+  "byChild": {
+    "144": [
+      {
+        "parentA": "144",
+        "parentASex": "",
+        "parentB": "144",
+        "parentBSex": "",
+        "sourceParentA": "MimicDog",
+        "sourceParentB": "MimicDog",
+        "sourceChild": "MimicDog"
+      }
+    ],
+    "145": [
+      {
+        "parentA": "145",
+        "parentASex": "",
+        "parentB": "145",
+        "parentBSex": "",
+        "sourceParentA": "DarkAlien",
+        "sourceParentB": "DarkAlien",
+        "sourceChild": "DarkAlien"
+      }
+    ],
+    "146": [
+      {
+        "parentA": "146",
+        "parentASex": "",
+        "parentB": "146",
+        "parentBSex": "",
+        "sourceParentA": "WhiteAlienDragon",
+        "sourceParentB": "WhiteAlienDragon",
+        "sourceChild": "WhiteAlienDragon"
+      }
+    ],
+    "157": [
+      {
+        "parentA": "154",
+        "parentASex": "",
+        "parentB": "32B",
+        "parentBSex": "",
+        "sourceParentA": "GoldenHorse",
+        "sourceParentB": "Deer_Ground",
+        "sourceChild": "WhiteDeer"
+      },
+      {
+        "parentA": "157",
+        "parentASex": "",
+        "parentB": "157",
+        "parentBSex": "",
+        "sourceParentA": "WhiteDeer",
+        "sourceParentB": "WhiteDeer",
+        "sourceChild": "WhiteDeer"
+      }
+    ],
+    "185": [
+      {
+        "parentA": "185",
+        "parentASex": "",
+        "parentB": "185",
+        "parentBSex": "",
+        "sourceParentA": "ElecPanda",
+        "sourceParentB": "ElecPanda",
+        "sourceChild": "ElecPanda"
+      }
+    ],
+    "186": [
+      {
+        "parentA": "186",
+        "parentASex": "",
+        "parentB": "186",
+        "parentBSex": "",
+        "sourceParentA": "LilyQueen",
+        "sourceParentB": "LilyQueen",
+        "sourceChild": "LilyQueen"
+      }
+    ],
+    "187": [
+      {
+        "parentA": "187",
+        "parentASex": "",
+        "parentB": "187",
+        "parentBSex": "",
+        "sourceParentA": "ThunderDragonMan",
+        "sourceParentB": "ThunderDragonMan",
+        "sourceChild": "ThunderDragonMan"
+      }
+    ],
+    "188": [
+      {
+        "parentA": "188",
+        "parentASex": "",
+        "parentB": "188",
+        "parentBSex": "",
+        "sourceParentA": "Horus",
+        "sourceParentB": "Horus",
+        "sourceChild": "Horus"
+      }
+    ],
+    "189": [
+      {
+        "parentA": "189",
+        "parentASex": "",
+        "parentB": "189",
+        "parentBSex": "",
+        "sourceParentA": "BlackGriffon",
+        "sourceParentB": "BlackGriffon",
+        "sourceChild": "BlackGriffon"
+      }
+    ],
+    "190": [
+      {
+        "parentA": "190",
+        "parentASex": "",
+        "parentB": "190",
+        "parentBSex": "",
+        "sourceParentA": "MoonQueen",
+        "sourceParentB": "MoonQueen",
+        "sourceChild": "MoonQueen"
+      }
+    ],
+    "191": [
+      {
+        "parentA": "191",
+        "parentASex": "",
+        "parentB": "191",
+        "parentBSex": "",
+        "sourceParentA": "SnowTigerBeastman",
+        "sourceParentB": "SnowTigerBeastman",
+        "sourceChild": "SnowTigerBeastman"
+      }
+    ],
+    "192": [
+      {
+        "parentA": "192",
+        "parentASex": "",
+        "parentB": "192",
+        "parentBSex": "",
+        "sourceParentA": "BlueSkyDragon",
+        "sourceParentB": "BlueSkyDragon",
+        "sourceChild": "BlueSkyDragon"
+      }
+    ],
+    "193": [
+      {
+        "parentA": "193",
+        "parentASex": "",
+        "parentB": "193",
+        "parentBSex": "",
+        "sourceParentA": "Mothman",
+        "sourceParentB": "Mothman",
+        "sourceChild": "Mothman"
+      }
+    ],
+    "194": [
+      {
+        "parentA": "194",
+        "parentASex": "",
+        "parentB": "194",
+        "parentBSex": "",
+        "sourceParentA": "FlowerPrince",
+        "sourceParentB": "FlowerPrince",
+        "sourceChild": "FlowerPrince"
+      }
+    ],
+    "195": [
+      {
+        "parentA": "195",
+        "parentASex": "",
+        "parentB": "195",
+        "parentBSex": "",
+        "sourceParentA": "NightLady",
+        "sourceParentB": "NightLady",
+        "sourceChild": "NightLady"
+      },
+      {
+        "parentA": "195",
+        "parentASex": "",
+        "parentB": "195B",
+        "parentBSex": "",
+        "sourceParentA": "NightLady",
+        "sourceParentB": "NightLady_Dark",
+        "sourceChild": "NightLady"
+      }
+    ],
+    "196": [
+      {
+        "parentA": "196",
+        "parentASex": "",
+        "parentB": "196",
+        "parentBSex": "",
+        "sourceParentA": "DarkMechaDragon",
+        "sourceParentB": "DarkMechaDragon",
+        "sourceChild": "DarkMechaDragon"
+      }
+    ],
+    "197": [
+      {
+        "parentA": "197",
+        "parentASex": "",
+        "parentB": "197",
+        "parentBSex": "",
+        "sourceParentA": "LegendDeer",
+        "sourceParentB": "LegendDeer",
+        "sourceChild": "LegendDeer"
+      }
+    ],
+    "198": [
+      {
+        "parentA": "198",
+        "parentASex": "",
+        "parentB": "198",
+        "parentBSex": "",
+        "sourceParentA": "SaintCentaur",
+        "sourceParentB": "SaintCentaur",
+        "sourceChild": "SaintCentaur"
+      }
+    ],
+    "199": [
+      {
+        "parentA": "199",
+        "parentASex": "",
+        "parentB": "199",
+        "parentBSex": "",
+        "sourceParentA": "BlackCentaur",
+        "sourceParentB": "BlackCentaur",
+        "sourceChild": "BlackCentaur"
+      }
+    ],
+    "200": [
+      {
+        "parentA": "200",
+        "parentASex": "",
+        "parentB": "200",
+        "parentBSex": "",
+        "sourceParentA": "IceHorse",
+        "sourceParentB": "IceHorse",
+        "sourceChild": "IceHorse"
+      }
+    ],
+    "201": [
+      {
+        "parentA": "201",
+        "parentASex": "",
+        "parentB": "201",
+        "parentBSex": "",
+        "sourceParentA": "PoseidonOrca",
+        "sourceParentB": "PoseidonOrca",
+        "sourceChild": "PoseidonOrca"
+      }
+    ],
+    "202": [
+      {
+        "parentA": "202",
+        "parentASex": "",
+        "parentB": "202",
+        "parentBSex": "",
+        "sourceParentA": "JetDragon",
+        "sourceParentB": "JetDragon",
+        "sourceChild": "JetDragon"
+      }
+    ],
+    "94B": [
+      {
+        "parentA": "94",
+        "parentASex": "",
+        "parentB": "42",
+        "parentBSex": "",
+        "sourceParentA": "LazyDragon",
+        "sourceParentB": "ElecCat",
+        "sourceChild": "LazyDragon_Electric"
+      },
+      {
+        "parentA": "94B",
+        "parentASex": "",
+        "parentB": "94B",
+        "parentBSex": "",
+        "sourceParentA": "LazyDragon_Electric",
+        "sourceParentB": "LazyDragon_Electric",
+        "sourceChild": "LazyDragon_Electric"
+      }
+    ],
+    "91B": [
+      {
+        "parentA": "91",
+        "parentASex": "",
+        "parentB": "117",
+        "parentBSex": "",
+        "sourceParentA": "Baphomet",
+        "sourceParentB": "GhostBeast",
+        "sourceChild": "Baphomet_Dark"
+      },
+      {
+        "parentA": "91B",
+        "parentASex": "",
+        "parentB": "91B",
+        "parentBSex": "",
+        "sourceParentA": "Baphomet_Dark",
+        "sourceParentB": "Baphomet_Dark",
+        "sourceChild": "Baphomet_Dark"
+      }
+    ],
+    "27B": [
+      {
+        "parentA": "27",
+        "parentASex": "",
+        "parentB": "17",
+        "parentBSex": "",
+        "sourceParentA": "Bastet",
+        "sourceParentB": "Penguin",
+        "sourceChild": "Bastet_Ice"
+      },
+      {
+        "parentA": "27B",
+        "parentASex": "",
+        "parentB": "27B",
+        "parentBSex": "",
+        "sourceParentA": "Bastet_Ice",
+        "sourceParentB": "Bastet_Ice",
+        "sourceChild": "Bastet_Ice"
+      }
+    ],
+    "64B": [
+      {
+        "parentA": "64",
+        "parentASex": "",
+        "parentB": "95",
+        "parentBSex": "",
+        "sourceParentA": "BirdDragon",
+        "sourceParentB": "IceFox",
+        "sourceChild": "BirdDragon_Ice"
+      },
+      {
+        "parentA": "64B",
+        "parentASex": "",
+        "parentB": "64B",
+        "parentBSex": "",
+        "sourceParentA": "BirdDragon_Ice",
+        "sourceParentB": "BirdDragon_Ice",
+        "sourceChild": "BirdDragon_Ice"
+      }
+    ],
+    "32B": [
+      {
+        "parentA": "32",
+        "parentASex": "",
+        "parentB": "38",
+        "parentBSex": "",
+        "sourceParentA": "Deer",
+        "sourceParentB": "WindChimes",
+        "sourceChild": "Deer_Ground"
+      },
+      {
+        "parentA": "32B",
+        "parentASex": "",
+        "parentB": "32B",
+        "parentBSex": "",
+        "sourceParentA": "Deer_Ground",
+        "sourceParentB": "Deer_Ground",
+        "sourceChild": "Deer_Ground"
+      }
+    ],
+    "63B": [
+      {
+        "parentA": "63",
+        "parentASex": "",
+        "parentB": "75",
+        "parentBSex": "",
+        "sourceParentA": "FairyDragon",
+        "sourceParentB": "Serpent",
+        "sourceChild": "FairyDragon_Water"
+      },
+      {
+        "parentA": "63B",
+        "parentASex": "",
+        "parentB": "63B",
+        "parentBSex": "",
+        "sourceParentA": "FairyDragon_Water",
+        "sourceParentB": "FairyDragon_Water",
+        "sourceChild": "FairyDragon_Water"
+      }
+    ],
+    "93B": [
+      {
+        "parentA": "93",
+        "parentASex": "",
+        "parentB": "79",
+        "parentBSex": "",
+        "sourceParentA": "FireKirin",
+        "sourceParentB": "CatMage",
+        "sourceChild": "FireKirin_Dark"
+      },
+      {
+        "parentA": "93B",
+        "parentASex": "",
+        "parentB": "93B",
+        "parentBSex": "",
+        "sourceParentA": "FireKirin_Dark",
+        "sourceParentB": "FireKirin_Dark",
+        "sourceChild": "FireKirin_Dark"
+      }
+    ],
+    "87B": [
+      {
+        "parentA": "87",
+        "parentASex": "",
+        "parentB": "134",
+        "parentBSex": "",
+        "sourceParentA": "GrassMammoth",
+        "sourceParentB": "Yeti",
+        "sourceChild": "GrassMammoth_Ice"
+      },
+      {
+        "parentA": "87B",
+        "parentASex": "",
+        "parentB": "87B",
+        "parentBSex": "",
+        "sourceParentA": "GrassMammoth_Ice",
+        "sourceParentB": "GrassMammoth_Ice",
+        "sourceChild": "GrassMammoth_Ice"
+      }
+    ],
+    "102B": [
+      {
+        "parentA": "102",
+        "parentASex": "",
+        "parentB": "185",
+        "parentBSex": "",
+        "sourceParentA": "GrassPanda",
+        "sourceParentB": "ElecPanda",
+        "sourceChild": "GrassPanda_Electric"
+      },
+      {
+        "parentA": "102B",
+        "parentASex": "",
+        "parentB": "102B",
+        "parentBSex": "",
+        "sourceParentA": "GrassPanda_Electric",
+        "sourceParentB": "GrassPanda_Electric",
+        "sourceChild": "GrassPanda_Electric"
+      }
+    ],
+    "84B": [
+      {
+        "parentA": "84",
+        "parentASex": "",
+        "parentB": "98",
+        "parentBSex": "",
+        "sourceParentA": "FlowerDinosaur",
+        "sourceParentB": "ThunderDog",
+        "sourceChild": "FlowerDinosaur_Electric"
+      },
+      {
+        "parentA": "84B",
+        "parentASex": "",
+        "parentB": "84B",
+        "parentBSex": "",
+        "sourceParentA": "FlowerDinosaur_Electric",
+        "sourceParentB": "FlowerDinosaur_Electric",
+        "sourceChild": "FlowerDinosaur_Electric"
+      }
+    ],
+    "15B": [
+      {
+        "parentA": "15",
+        "parentASex": "",
+        "parentB": "17",
+        "parentBSex": "",
+        "sourceParentA": "Hedgehog",
+        "sourceParentB": "Penguin",
+        "sourceChild": "Hedgehog_Ice"
+      },
+      {
+        "parentA": "15B",
+        "parentASex": "",
+        "parentB": "15B",
+        "parentBSex": "",
+        "sourceParentA": "Hedgehog_Ice",
+        "sourceParentB": "Hedgehog_Ice",
+        "sourceChild": "Hedgehog_Ice"
+      }
+    ],
+    "200B": [
+      {
+        "parentA": "200",
+        "parentASex": "",
+        "parentB": "80",
+        "parentBSex": "",
+        "sourceParentA": "IceHorse",
+        "sourceParentB": "HadesBird",
+        "sourceChild": "IceHorse_Dark"
+      },
+      {
+        "parentA": "200B",
+        "parentASex": "",
+        "parentB": "200B",
+        "parentBSex": "",
+        "sourceParentA": "IceHorse_Dark",
+        "sourceParentB": "IceHorse_Dark",
+        "sourceChild": "IceHorse_Dark"
+      }
+    ],
+    "21B": [
+      {
+        "parentA": "21",
+        "parentASex": "",
+        "parentB": "101",
+        "parentBSex": "",
+        "sourceParentA": "KingAlpaca",
+        "sourceParentB": "IceDeer",
+        "sourceChild": "KingAlpaca_Ice"
+      },
+      {
+        "parentA": "21B",
+        "parentASex": "",
+        "parentB": "21B",
+        "parentBSex": "",
+        "sourceParentA": "KingAlpaca_Ice",
+        "sourceParentB": "KingAlpaca_Ice",
+        "sourceChild": "KingAlpaca_Ice"
+      }
+    ],
+    "186B": [
+      {
+        "parentA": "186",
+        "parentASex": "",
+        "parentB": "99",
+        "parentBSex": "",
+        "sourceParentA": "LilyQueen",
+        "sourceParentB": "DarkScorpion",
+        "sourceChild": "LilyQueen_Dark"
+      },
+      {
+        "parentA": "186B",
+        "parentASex": "",
+        "parentB": "186B",
+        "parentBSex": "",
+        "sourceParentA": "LilyQueen_Dark",
+        "sourceParentB": "LilyQueen_Dark",
+        "sourceChild": "LilyQueen_Dark"
+      }
+    ],
+    "73B": [
+      {
+        "parentA": "73",
+        "parentASex": "",
+        "parentB": "25",
+        "parentBSex": "",
+        "sourceParentA": "LizardMan",
+        "sourceParentB": "LavaGirl",
+        "sourceChild": "LizardMan_Fire"
+      },
+      {
+        "parentA": "73B",
+        "parentASex": "",
+        "parentB": "73B",
+        "parentBSex": "",
+        "sourceParentA": "LizardMan_Fire",
+        "sourceParentB": "LizardMan_Fire",
+        "sourceChild": "LizardMan_Fire"
+      }
+    ],
+    "112B": [
+      {
+        "parentA": "112",
+        "parentASex": "",
+        "parentB": "65",
+        "parentBSex": "",
+        "sourceParentA": "Manticore",
+        "sourceParentB": "CatVampire",
+        "sourceChild": "Manticore_Dark"
+      },
+      {
+        "parentA": "112B",
+        "parentASex": "",
+        "parentB": "112B",
+        "parentBSex": "",
+        "sourceParentA": "Manticore_Dark",
+        "sourceParentB": "Manticore_Dark",
+        "sourceChild": "Manticore_Dark"
+      }
+    ],
+    "76B": [
+      {
+        "parentA": "76",
+        "parentASex": "",
+        "parentB": "31",
+        "parentBSex": "",
+        "sourceParentA": "RobinHood",
+        "sourceParentB": "CuteMole",
+        "sourceChild": "RobinHood_Ground"
+      },
+      {
+        "parentA": "76B",
+        "parentASex": "",
+        "parentB": "76B",
+        "parentBSex": "",
+        "sourceParentA": "RobinHood_Ground",
+        "sourceParentB": "RobinHood_Ground",
+        "sourceChild": "RobinHood_Ground"
+      }
+    ],
+    "75B": [
+      {
+        "parentA": "75",
+        "parentASex": "",
+        "parentB": "109",
+        "parentBSex": "",
+        "sourceParentA": "Serpent",
+        "sourceParentB": "LazyCatfish",
+        "sourceChild": "Serpent_Ground"
+      },
+      {
+        "parentA": "75B",
+        "parentASex": "",
+        "parentB": "75B",
+        "parentBSex": "",
+        "sourceParentA": "Serpent_Ground",
+        "sourceParentB": "Serpent_Ground",
+        "sourceChild": "Serpent_Ground"
+      }
+    ],
+    "55B": [
+      {
+        "parentA": "55",
+        "parentASex": "",
+        "parentB": "26",
+        "parentBSex": "",
+        "sourceParentA": "SharkKid",
+        "sourceParentB": "FlameBambi",
+        "sourceChild": "SharkKid_Fire"
+      },
+      {
+        "parentA": "55B",
+        "parentASex": "",
+        "parentB": "55B",
+        "parentBSex": "",
+        "sourceParentA": "SharkKid_Fire",
+        "sourceParentB": "SharkKid_Fire",
+        "sourceChild": "SharkKid_Fire"
+      }
+    ],
+    "122B": [
+      {
+        "parentA": "122",
+        "parentASex": "",
+        "parentB": "121",
+        "parentBSex": "",
+        "sourceParentA": "Suzaku",
+        "sourceParentB": "Umihebi",
+        "sourceChild": "Suzaku_Water"
+      },
+      {
+        "parentA": "122B",
+        "parentASex": "",
+        "parentB": "122B",
+        "parentBSex": "",
+        "sourceParentA": "Suzaku_Water",
+        "sourceParentB": "Suzaku_Water",
+        "sourceChild": "Suzaku_Water"
+      }
+    ],
+    "129B": [
+      {
+        "parentA": "129",
+        "parentASex": "",
+        "parentB": "95",
+        "parentBSex": "",
+        "sourceParentA": "VolcanicMonster",
+        "sourceParentB": "IceFox",
+        "sourceChild": "VolcanicMonster_Ice"
+      },
+      {
+        "parentA": "129B",
+        "parentASex": "",
+        "parentB": "129B",
+        "parentBSex": "",
+        "sourceParentA": "VolcanicMonster_Ice",
+        "sourceParentB": "VolcanicMonster_Ice",
+        "sourceChild": "VolcanicMonster_Ice"
+      }
+    ],
+    "38B": [
+      {
+        "parentA": "38",
+        "parentASex": "",
+        "parentB": "35",
+        "parentBSex": "",
+        "sourceParentA": "WindChimes",
+        "sourceParentB": "MopBaby",
+        "sourceChild": "WindChimes_Ice"
+      },
+      {
+        "parentA": "38B",
+        "parentASex": "",
+        "parentB": "38B",
+        "parentBSex": "",
+        "sourceParentA": "WindChimes_Ice",
+        "sourceParentB": "WindChimes_Ice",
+        "sourceChild": "WindChimes_Ice"
+      }
+    ],
+    "121B": [
+      {
+        "parentA": "121B",
+        "parentASex": "",
+        "parentB": "121B",
+        "parentBSex": "",
+        "sourceParentA": "Umihebi_Fire",
+        "sourceParentB": "Umihebi_Fire",
+        "sourceChild": "Umihebi_Fire"
+      },
+      {
+        "parentA": "121",
+        "parentASex": "",
+        "parentB": "112",
+        "parentBSex": "",
+        "sourceParentA": "Umihebi",
+        "sourceParentB": "Manticore",
+        "sourceChild": "Umihebi_Fire"
+      }
+    ],
+    "108B": [
+      {
+        "parentA": "108B",
+        "parentASex": "",
+        "parentB": "108B",
+        "parentBSex": "",
+        "sourceParentA": "SakuraSaurus_Water",
+        "sourceParentB": "SakuraSaurus_Water",
+        "sourceChild": "SakuraSaurus_Water"
+      }
+    ],
+    "195B": [
+      {
+        "parentA": "195B",
+        "parentASex": "",
+        "parentB": "195B",
+        "parentBSex": "",
+        "sourceParentA": "NightLady_Dark",
+        "sourceParentB": "NightLady_Dark",
+        "sourceChild": "NightLady_Dark"
+      }
+    ],
+    "74B": [
+      {
+        "parentA": "74B",
+        "parentASex": "",
+        "parentB": "74B",
+        "parentBSex": "",
+        "sourceParentA": "Gorilla_Ground",
+        "sourceParentB": "Gorilla_Ground",
+        "sourceChild": "Gorilla_Ground"
+      },
+      {
+        "parentA": "74",
+        "parentASex": "",
+        "parentB": "126",
+        "parentBSex": "",
+        "sourceParentA": "Gorilla",
+        "sourceParentB": "SmallArmadillo",
+        "sourceChild": "Gorilla_Ground"
+      }
+    ],
+    "137B": [
+      {
+        "parentA": "137B",
+        "parentASex": "",
+        "parentB": "137B",
+        "parentBSex": "",
+        "sourceParentA": "KingBahamut_Dragon",
+        "sourceParentB": "KingBahamut_Dragon",
+        "sourceChild": "KingBahamut_Dragon"
+      }
+    ],
+    "78B": [
+      {
+        "parentA": "78B",
+        "parentASex": "",
+        "parentB": "78B",
+        "parentBSex": "",
+        "sourceParentA": "FoxMage_Dark",
+        "sourceParentB": "FoxMage_Dark",
+        "sourceChild": "FoxMage_Dark"
+      },
+      {
+        "parentA": "79",
+        "parentASex": "♂",
+        "parentB": "78",
+        "parentBSex": "♀",
+        "sourceParentA": "CatMage",
+        "sourceParentB": "FoxMage",
+        "sourceChild": "FoxMage_Dark"
+      }
+    ],
+    "79B": [
+      {
+        "parentA": "79B",
+        "parentASex": "",
+        "parentB": "79B",
+        "parentBSex": "",
+        "sourceParentA": "CatMage_Fire",
+        "sourceParentB": "CatMage_Fire",
+        "sourceChild": "CatMage_Fire"
+      },
+      {
+        "parentA": "79",
+        "parentASex": "♀",
+        "parentB": "78",
+        "parentBSex": "♂",
+        "sourceParentA": "CatMage",
+        "sourceParentB": "FoxMage",
+        "sourceChild": "CatMage_Fire"
+      }
+    ],
+    "113B": [
+      {
+        "parentA": "113B",
+        "parentASex": "",
+        "parentB": "113B",
+        "parentBSex": "",
+        "sourceParentA": "HerculesBeetle_Ground",
+        "sourceParentB": "HerculesBeetle_Ground",
+        "sourceChild": "HerculesBeetle_Ground"
+      },
+      {
+        "parentA": "113",
+        "parentASex": "",
+        "parentB": "107",
+        "parentBSex": "",
+        "sourceParentA": "HerculesBeetle",
+        "sourceParentB": "DrillGame",
+        "sourceChild": "HerculesBeetle_Ground"
+      },
+      {
+        "parentA": "113B",
+        "parentASex": "",
+        "parentB": "113B",
+        "parentBSex": "",
+        "sourceParentA": "HerculesBeetle_Ground",
+        "sourceParentB": "HerculesBeetle_Ground",
+        "sourceChild": "HerculesBeetle_Ground"
+      }
+    ],
+    "103B": [
+      {
+        "parentA": "103B",
+        "parentASex": "",
+        "parentB": "103B",
+        "parentBSex": "",
+        "sourceParentA": "WeaselDragon_Fire",
+        "sourceParentB": "WeaselDragon_Fire",
+        "sourceChild": "WeaselDragon_Fire"
+      },
+      {
+        "parentA": "103",
+        "parentASex": "",
+        "parentB": "58",
+        "parentBSex": "",
+        "sourceParentA": "WeaselDragon",
+        "sourceParentB": "FlameBuffalo",
+        "sourceChild": "WeaselDragon_Fire"
+      }
+    ],
+    "124B": [
+      {
+        "parentA": "124B",
+        "parentASex": "",
+        "parentB": "124B",
+        "parentBSex": "",
+        "sourceParentA": "SkyDragon_Grass",
+        "sourceParentB": "SkyDragon_Grass",
+        "sourceChild": "SkyDragon_Grass"
+      },
+      {
+        "parentA": "124",
+        "parentASex": "",
+        "parentB": "125",
+        "parentBSex": "",
+        "sourceParentA": "SkyDragon",
+        "sourceParentB": "LeafPrincess",
+        "sourceChild": "SkyDragon_Grass"
+      }
+    ],
+    "80B": [
+      {
+        "parentA": "80B",
+        "parentASex": "",
+        "parentB": "80B",
+        "parentBSex": "",
+        "sourceParentA": "HadesBird_Electric",
+        "sourceParentB": "HadesBird_Electric",
+        "sourceChild": "HadesBird_Electric"
+      },
+      {
+        "parentA": "80",
+        "parentASex": "",
+        "parentB": "96",
+        "parentBSex": "",
+        "sourceParentA": "HadesBird",
+        "sourceParentB": "ThunderBird",
+        "sourceChild": "HadesBird_Electric"
+      }
+    ],
+    "85B": [
+      {
+        "parentA": "85B",
+        "parentASex": "",
+        "parentB": "85B",
+        "parentBSex": "",
+        "sourceParentA": "Ronin_Dark",
+        "sourceParentB": "Ronin_Dark",
+        "sourceChild": "Ronin_Dark"
+      },
+      {
+        "parentA": "85",
+        "parentASex": "",
+        "parentB": "135",
+        "parentBSex": "",
+        "sourceParentA": "Ronin",
+        "sourceParentB": "CandleGhost",
+        "sourceChild": "Ronin_Dark"
+      }
+    ],
+    "99B": [
+      {
+        "parentA": "99B",
+        "parentASex": "",
+        "parentB": "99B",
+        "parentBSex": "",
+        "sourceParentA": "DarkScorpion_Ground",
+        "sourceParentB": "DarkScorpion_Ground",
+        "sourceChild": "DarkScorpion_Ground"
+      },
+      {
+        "parentA": "99",
+        "parentASex": "",
+        "parentB": "159",
+        "parentBSex": "",
+        "sourceParentA": "DarkScorpion",
+        "sourceParentB": "WingGolem",
+        "sourceChild": "DarkScorpion_Ground"
+      }
+    ],
+    "29B": [
+      {
+        "parentA": "29",
+        "parentASex": "",
+        "parentB": "95",
+        "parentBSex": "",
+        "sourceParentA": "Kitsunebi",
+        "sourceParentB": "IceFox",
+        "sourceChild": "Kitsunebi_Ice"
+      },
+      {
+        "parentA": "29B",
+        "parentASex": "",
+        "parentB": "29B",
+        "parentBSex": "",
+        "sourceParentA": "Kitsunebi_Ice",
+        "sourceParentB": "Kitsunebi_Ice",
+        "sourceChild": "Kitsunebi_Ice"
+      }
+    ],
+    "92B": [
+      {
+        "parentA": "92",
+        "parentASex": "",
+        "parentB": "150",
+        "parentBSex": "",
+        "sourceParentA": "RaijinDaughter",
+        "sourceParentB": "MysteryMask",
+        "sourceChild": "RaijinDaughter_Water"
+      },
+      {
+        "parentA": "92B",
+        "parentASex": "",
+        "parentB": "92B",
+        "parentBSex": "",
+        "sourceParentA": "RaijinDaughter_Water",
+        "sourceParentB": "RaijinDaughter_Water",
+        "sourceChild": "RaijinDaughter_Water"
+      }
+    ],
+    "132B": [
+      {
+        "parentA": "132",
+        "parentASex": "",
+        "parentB": "123",
+        "parentBSex": "",
+        "sourceParentA": "WhiteTiger",
+        "sourceParentB": "FeatherOstrich",
+        "sourceChild": "WhiteTiger_Ground"
+      },
+      {
+        "parentA": "132B",
+        "parentASex": "",
+        "parentB": "132B",
+        "parentBSex": "",
+        "sourceParentA": "WhiteTiger_Ground",
+        "sourceParentB": "WhiteTiger_Ground",
+        "sourceChild": "WhiteTiger_Ground"
+      }
+    ],
+    "83B": [
+      {
+        "parentA": "83",
+        "parentASex": "",
+        "parentB": "161",
+        "parentBSex": "",
+        "sourceParentA": "FengyunDeeper",
+        "sourceParentB": "BlueThunderHorse",
+        "sourceChild": "FengyunDeeper_Electric"
+      },
+      {
+        "parentA": "83B",
+        "parentASex": "",
+        "parentB": "83B",
+        "parentBSex": "",
+        "sourceParentA": "FengyunDeeper_Electric",
+        "sourceParentB": "FengyunDeeper_Electric",
+        "sourceChild": "FengyunDeeper_Electric"
+      }
+    ],
+    "34B": [
+      {
+        "parentA": "34",
+        "parentASex": "",
+        "parentB": "71",
+        "parentBSex": "",
+        "sourceParentA": "BerryGoat",
+        "sourceParentB": "PurpleSpider",
+        "sourceChild": "BerryGoat_Dark"
+      },
+      {
+        "parentA": "34B",
+        "parentASex": "",
+        "parentB": "34B",
+        "parentBSex": "",
+        "sourceParentA": "BerryGoat_Dark",
+        "sourceParentB": "BerryGoat_Dark",
+        "sourceChild": "BerryGoat_Dark"
+      }
+    ],
+    "56B": [
+      {
+        "parentA": "56",
+        "parentASex": "",
+        "parentB": "36",
+        "parentBSex": "",
+        "sourceParentA": "Werewolf",
+        "sourceParentB": "MopKing",
+        "sourceChild": "Werewolf_Ice"
+      },
+      {
+        "parentA": "56B",
+        "parentASex": "",
+        "parentB": "56B",
+        "parentBSex": "",
+        "sourceParentA": "Werewolf_Ice",
+        "sourceParentB": "Werewolf_Ice",
+        "sourceChild": "Werewolf_Ice"
+      }
+    ],
+    "188B": [
+      {
+        "parentA": "188",
+        "parentASex": "",
+        "parentB": "121",
+        "parentBSex": "",
+        "sourceParentA": "Horus",
+        "sourceParentB": "Umihebi",
+        "sourceChild": "Horus_Water"
+      },
+      {
+        "parentA": "188B",
+        "parentASex": "",
+        "parentB": "188B",
+        "parentBSex": "",
+        "sourceParentA": "Horus_Water",
+        "sourceParentB": "Horus_Water",
+        "sourceChild": "Horus_Water"
+      }
+    ],
+    "44B": [
+      {
+        "parentA": "44",
+        "parentASex": "",
+        "parentB": "60",
+        "parentBSex": "",
+        "sourceParentA": "PinkRabbit",
+        "sourceParentB": "LittleBriarRose",
+        "sourceChild": "PinkRabbit_Grass"
+      },
+      {
+        "parentA": "44B",
+        "parentASex": "",
+        "parentB": "44B",
+        "parentBSex": "",
+        "sourceParentA": "PinkRabbit_Grass",
+        "sourceParentB": "PinkRabbit_Grass",
+        "sourceChild": "PinkRabbit_Grass"
+      }
+    ],
+    "111B": [
+      {
+        "parentA": "111",
+        "parentASex": "",
+        "parentB": "143",
+        "parentBSex": "",
+        "sourceParentA": "AmaterasuWolf",
+        "sourceParentB": "BadCatgirl",
+        "sourceChild": "AmaterasuWolf_Dark"
+      },
+      {
+        "parentA": "111B",
+        "parentASex": "",
+        "parentB": "111B",
+        "parentBSex": "",
+        "sourceParentA": "AmaterasuWolf_Dark",
+        "sourceParentB": "AmaterasuWolf_Dark",
+        "sourceChild": "AmaterasuWolf_Dark"
+      }
+    ],
+    "30B": [
+      {
+        "parentA": "30B",
+        "parentASex": "",
+        "parentB": "30B",
+        "parentBSex": "",
+        "sourceParentA": "NegativeOctopus_Neutral",
+        "sourceParentB": "NegativeOctopus_Neutral",
+        "sourceChild": "NegativeOctopus_Neutral"
+      },
+      {
+        "parentA": "30",
+        "parentASex": "",
+        "parentB": "44",
+        "parentBSex": "",
+        "sourceParentA": "NegativeOctopus",
+        "sourceParentB": "PinkRabbit",
+        "sourceChild": "NegativeOctopus_Neutral"
+      }
+    ],
+    "17B": [
+      {
+        "parentA": "17B",
+        "parentASex": "",
+        "parentB": "17B",
+        "parentBSex": "",
+        "sourceParentA": "Penguin_Electric",
+        "sourceParentB": "Penguin_Electric",
+        "sourceChild": "Penguin_Electric"
+      },
+      {
+        "parentA": "17",
+        "parentASex": "",
+        "parentB": "42",
+        "parentBSex": "",
+        "sourceParentA": "Penguin",
+        "sourceParentB": "ElecCat",
+        "sourceChild": "Penguin_Electric"
+      }
+    ],
+    "18B": [
+      {
+        "parentA": "18B",
+        "parentASex": "",
+        "parentB": "18B",
+        "parentBSex": "",
+        "sourceParentA": "CaptainPenguin_Black",
+        "sourceParentB": "CaptainPenguin_Black",
+        "sourceChild": "CaptainPenguin_Black"
+      },
+      {
+        "parentA": "18",
+        "parentASex": "",
+        "parentB": "98",
+        "parentBSex": "",
+        "sourceParentA": "CaptainPenguin",
+        "sourceParentB": "ThunderDog",
+        "sourceChild": "CaptainPenguin_Black"
+      }
+    ],
+    "7B": [
+      {
+        "parentA": "7B",
+        "parentASex": "",
+        "parentB": "7B",
+        "parentBSex": "",
+        "sourceParentA": "FlyingManta_Thunder",
+        "sourceParentB": "FlyingManta_Thunder",
+        "sourceChild": "FlyingManta_Thunder"
+      },
+      {
+        "parentA": "7",
+        "parentASex": "",
+        "parentB": "54",
+        "parentBSex": "",
+        "sourceParentA": "FlyingManta",
+        "sourceParentB": "Kirin",
+        "sourceChild": "FlyingManta_Thunder"
+      }
+    ],
+    "5B": [
+      {
+        "parentA": "5B",
+        "parentASex": "",
+        "parentB": "5B",
+        "parentBSex": "",
+        "sourceParentA": "BluePlatypus_Fire",
+        "sourceParentB": "BluePlatypus_Fire",
+        "sourceChild": "BluePlatypus_Fire"
+      }
+    ],
+    "109B": [
+      {
+        "parentA": "109B",
+        "parentASex": "",
+        "parentB": "109B",
+        "parentBSex": "",
+        "sourceParentA": "LazyCatfish_Gold",
+        "sourceParentB": "LazyCatfish_Gold",
+        "sourceChild": "LazyCatfish_Gold"
+      },
+      {
+        "parentA": "109",
+        "parentASex": "",
+        "parentB": "32B",
+        "parentBSex": "",
+        "sourceParentA": "LazyCatfish",
+        "sourceParentB": "Deer_Ground",
+        "sourceChild": "LazyCatfish_Gold"
+      }
+    ],
+    "37B": [
+      {
+        "parentA": "37B",
+        "parentASex": "",
+        "parentB": "37B",
+        "parentBSex": "",
+        "sourceParentA": "TentacleTurtle_Ground",
+        "sourceParentB": "TentacleTurtle_Ground",
+        "sourceChild": "TentacleTurtle_Ground"
+      },
+      {
+        "parentA": "37",
+        "parentASex": "",
+        "parentB": "107",
+        "parentBSex": "",
+        "sourceParentA": "TentacleTurtle",
+        "sourceParentB": "DrillGame",
+        "sourceChild": "TentacleTurtle_Ground"
+      }
+    ],
+    "9B": [
+      {
+        "parentA": "9B",
+        "parentASex": "",
+        "parentB": "9B",
+        "parentBSex": "",
+        "sourceParentA": "KendoFrog_Dark",
+        "sourceParentB": "KendoFrog_Dark",
+        "sourceChild": "KendoFrog_Dark"
+      },
+      {
+        "parentA": "9",
+        "parentASex": "",
+        "parentB": "85B",
+        "parentBSex": "",
+        "sourceParentA": "KendoFrog",
+        "sourceParentB": "Ronin_Dark",
+        "sourceChild": "KendoFrog_Dark"
+      }
+    ],
+    "41B": [
+      {
+        "parentA": "41B",
+        "parentASex": "",
+        "parentB": "41B",
+        "parentBSex": "",
+        "sourceParentA": "BlueDragon_Ice",
+        "sourceParentB": "BlueDragon_Ice",
+        "sourceChild": "BlueDragon_Ice"
+      },
+      {
+        "parentA": "41",
+        "parentASex": "",
+        "parentB": "114",
+        "parentBSex": "",
+        "sourceParentA": "BlueDragon",
+        "sourceParentB": "SnowPeafowl",
+        "sourceChild": "BlueDragon_Ice"
+      }
+    ],
+    "151B": [
+      {
+        "parentA": "151B",
+        "parentASex": "",
+        "parentB": "151B",
+        "parentBSex": "",
+        "sourceParentA": "IceNarwhal_Fire",
+        "sourceParentB": "IceNarwhal_Fire",
+        "sourceChild": "IceNarwhal_Fire"
+      },
+      {
+        "parentA": "151",
+        "parentASex": "",
+        "parentB": "103B",
+        "parentBSex": "",
+        "sourceParentA": "IceNarwhal",
+        "sourceParentB": "WeaselDragon_Fire",
+        "sourceChild": "IceNarwhal_Fire"
+      }
+    ],
+    "97B": [
+      {
+        "parentA": "97B",
+        "parentASex": "",
+        "parentB": "97B",
+        "parentBSex": "",
+        "sourceParentA": "GhostAnglerfish_Fire",
+        "sourceParentB": "GhostAnglerfish_Fire",
+        "sourceChild": "GhostAnglerfish_Fire"
+      },
+      {
+        "parentA": "97",
+        "parentASex": "",
+        "parentB": "135",
+        "parentBSex": "",
+        "sourceParentA": "GhostAnglerfish",
+        "sourceParentB": "CandleGhost",
+        "sourceChild": "GhostAnglerfish_Fire"
+      }
+    ],
+    "88B": [
+      {
+        "parentA": "88B",
+        "parentASex": "",
+        "parentB": "88B",
+        "parentBSex": "",
+        "sourceParentA": "StuffedShark_Fire",
+        "sourceParentB": "StuffedShark_Fire",
+        "sourceChild": "StuffedShark_Fire"
+      },
+      {
+        "parentA": "88",
+        "parentASex": "",
+        "parentB": "55B",
+        "parentBSex": "",
+        "sourceParentA": "StuffedShark",
+        "sourceParentB": "SharkKid_Fire",
+        "sourceChild": "StuffedShark_Fire"
+      }
+    ],
+    "23B": [
+      {
+        "parentA": "23B",
+        "parentASex": "",
+        "parentB": "23B",
+        "parentBSex": "",
+        "sourceParentA": "Monkey_Fire",
+        "sourceParentB": "Monkey_Fire",
+        "sourceChild": "Monkey_Fire"
+      },
+      {
+        "parentA": "23",
+        "parentASex": "",
+        "parentB": "25",
+        "parentBSex": "",
+        "sourceParentA": "Monkey",
+        "sourceParentB": "LavaGirl",
+        "sourceChild": "Monkey_Fire"
+      }
+    ],
+    "54B": [
+      {
+        "parentA": "54B",
+        "parentASex": "",
+        "parentB": "54B",
+        "parentBSex": "",
+        "sourceParentA": "Kirin_Ice",
+        "sourceParentB": "Kirin_Ice",
+        "sourceChild": "Kirin_Ice"
+      },
+      {
+        "parentA": "54",
+        "parentASex": "",
+        "parentB": "114",
+        "parentBSex": "",
+        "sourceParentA": "Kirin",
+        "sourceParentB": "SnowPeafowl",
+        "sourceChild": "Kirin_Ice"
+      }
+    ],
+    "98B": [
+      {
+        "parentA": "98B",
+        "parentASex": "",
+        "parentB": "98B",
+        "parentBSex": "",
+        "sourceParentA": "ThunderDog_Ice",
+        "sourceParentB": "ThunderDog_Ice",
+        "sourceChild": "ThunderDog_Ice"
+      },
+      {
+        "parentA": "98",
+        "parentASex": "",
+        "parentB": "95",
+        "parentBSex": "",
+        "sourceParentA": "ThunderDog",
+        "sourceParentB": "IceFox",
+        "sourceChild": "ThunderDog_Ice"
+      }
+    ],
+    "96B": [
+      {
+        "parentA": "96B",
+        "parentASex": "",
+        "parentB": "96B",
+        "parentBSex": "",
+        "sourceParentA": "ThunderBird_Ice",
+        "sourceParentB": "ThunderBird_Ice",
+        "sourceChild": "ThunderBird_Ice"
+      },
+      {
+        "parentA": "96",
+        "parentASex": "",
+        "parentB": "114",
+        "parentBSex": "",
+        "sourceParentA": "ThunderBird",
+        "sourceParentB": "SnowPeafowl",
+        "sourceChild": "ThunderBird_Ice"
+      }
+    ],
+    "39B": [
+      {
+        "parentA": "39B",
+        "parentASex": "",
+        "parentB": "39B",
+        "parentBSex": "",
+        "sourceParentA": "SweetsSheep_Ground",
+        "sourceParentB": "SweetsSheep_Ground",
+        "sourceChild": "SweetsSheep_Ground"
+      },
+      {
+        "parentA": "39",
+        "parentASex": "",
+        "parentB": "126",
+        "parentBSex": "",
+        "sourceParentA": "SweetsSheep",
+        "sourceParentB": "SmallArmadillo",
+        "sourceChild": "SweetsSheep_Ground"
+      }
+    ],
+    "141B": [
+      {
+        "parentA": "141B",
+        "parentASex": "",
+        "parentB": "141B",
+        "parentBSex": "",
+        "sourceParentA": "ScorpionMan_Electric",
+        "sourceParentB": "ScorpionMan_Electric",
+        "sourceChild": "ScorpionMan_Electric"
+      },
+      {
+        "parentA": "141",
+        "parentASex": "",
+        "parentB": "80B",
+        "parentBSex": "",
+        "sourceParentA": "ScorpionMan",
+        "sourceParentB": "HadesBird_Electric",
+        "sourceChild": "ScorpionMan_Electric"
+      }
+    ],
+    "149B": [
+      {
+        "parentA": "149B",
+        "parentASex": "",
+        "parentB": "149B",
+        "parentBSex": "",
+        "sourceParentA": "BlackPuppy_Ice",
+        "sourceParentB": "BlackPuppy_Ice",
+        "sourceChild": "BlackPuppy_Ice"
+      },
+      {
+        "parentA": "149",
+        "parentASex": "",
+        "parentB": "86",
+        "parentBSex": "",
+        "sourceParentA": "BlackPuppy",
+        "sourceParentB": "IceCrocodile",
+        "sourceChild": "BlackPuppy_Ice"
+      }
+    ],
+    "148B": [
+      {
+        "parentA": "148B",
+        "parentASex": "",
+        "parentB": "148B",
+        "parentBSex": "",
+        "sourceParentA": "GhostRabbit_Grass",
+        "sourceParentB": "GhostRabbit_Grass",
+        "sourceChild": "GhostRabbit_Grass"
+      },
+      {
+        "parentA": "148",
+        "parentASex": "",
+        "parentB": "89",
+        "parentBSex": "",
+        "sourceParentA": "GhostRabbit",
+        "sourceParentB": "FlowerDoll",
+        "sourceChild": "GhostRabbit_Grass"
+      }
+    ],
+    "130B": [
+      {
+        "parentA": "130B",
+        "parentASex": "",
+        "parentB": "130B",
+        "parentBSex": "",
+        "sourceParentA": "NightBlueHorse_Neutral",
+        "sourceParentB": "NightBlueHorse_Neutral",
+        "sourceChild": "NightBlueHorse_Neutral"
+      },
+      {
+        "parentA": "130",
+        "parentASex": "",
+        "parentB": "157",
+        "parentBSex": "",
+        "sourceParentA": "NightBlueHorse",
+        "sourceParentB": "WhiteDeer",
+        "sourceChild": "NightBlueHorse_Neutral"
+      }
+    ],
+    "48B": [
+      {
+        "parentA": "48B",
+        "parentASex": "",
+        "parentB": "48B",
+        "parentBSex": "",
+        "sourceParentA": "OctopusGirl_Neutral",
+        "sourceParentB": "OctopusGirl_Neutral",
+        "sourceChild": "OctopusGirl_Neutral"
+      },
+      {
+        "parentA": "48",
+        "parentASex": "",
+        "parentB": "162",
+        "parentBSex": "",
+        "sourceParentA": "OctopusGirl",
+        "sourceParentB": "LongCat",
+        "sourceChild": "OctopusGirl_Neutral"
+      }
+    ],
+    "116B": [
+      {
+        "parentA": "116B",
+        "parentASex": "",
+        "parentB": "116B",
+        "parentBSex": "",
+        "sourceParentA": "WhiteMoth_Neutral",
+        "sourceParentB": "WhiteMoth_Neutral",
+        "sourceChild": "WhiteMoth_Neutral"
+      },
+      {
+        "parentA": "116",
+        "parentASex": "",
+        "parentB": "170",
+        "parentBSex": "",
+        "sourceParentA": "WhiteMoth",
+        "sourceParentB": "SleeveRabbit",
+        "sourceChild": "WhiteMoth_Neutral"
+      }
+    ],
+    "159B": [
+      {
+        "parentA": "159B",
+        "parentASex": "",
+        "parentB": "159B",
+        "parentBSex": "",
+        "sourceParentA": "WingGolem_Fire",
+        "sourceParentB": "WingGolem_Fire",
+        "sourceChild": "WingGolem_Fire"
+      },
+      {
+        "parentA": "159",
+        "parentASex": "",
+        "parentB": "104",
+        "parentBSex": "",
+        "sourceParentA": "WingGolem",
+        "sourceParentB": "RedArmorBird",
+        "sourceChild": "WingGolem_Fire"
+      }
+    ],
+    "89B": [
+      {
+        "parentA": "89B",
+        "parentASex": "",
+        "parentB": "89B",
+        "parentBSex": "",
+        "sourceParentA": "FlowerDoll_Fire",
+        "sourceParentB": "FlowerDoll_Fire",
+        "sourceChild": "FlowerDoll_Fire"
+      },
+      {
+        "parentA": "89",
+        "parentASex": "",
+        "parentB": "85",
+        "parentBSex": "",
+        "sourceParentA": "FlowerDoll",
+        "sourceParentB": "Ronin",
+        "sourceChild": "FlowerDoll_Fire"
+      }
+    ],
+    "157B": [
+      {
+        "parentA": "157B",
+        "parentASex": "",
+        "parentB": "157B",
+        "parentBSex": "",
+        "sourceParentA": "WhiteDeer_Dark",
+        "sourceParentB": "WhiteDeer_Dark",
+        "sourceChild": "WhiteDeer_Dark"
+      },
+      {
+        "parentA": "157",
+        "parentASex": "",
+        "parentB": "111B",
+        "parentBSex": "",
+        "sourceParentA": "WhiteDeer",
+        "sourceParentB": "AmaterasuWolf_Dark",
+        "sourceChild": "WhiteDeer_Dark"
+      }
+    ],
+    "72B": [
+      {
+        "parentA": "72B",
+        "parentASex": "",
+        "parentB": "72B",
+        "parentBSex": "",
+        "sourceParentA": "IceSeal_Ground",
+        "sourceParentB": "IceSeal_Ground",
+        "sourceChild": "IceSeal_Ground"
+      },
+      {
+        "parentA": "72",
+        "parentASex": "",
+        "parentB": "75B",
+        "parentBSex": "",
+        "sourceParentA": "IceSeal",
+        "sourceParentB": "Serpent_Ground",
+        "sourceChild": "IceSeal_Ground"
+      }
+    ],
+    "169B": [
+      {
+        "parentA": "169B",
+        "parentASex": "",
+        "parentB": "169B",
+        "parentBSex": "",
+        "sourceParentA": "KingSunfish_Thunder",
+        "sourceParentB": "KingSunfish_Thunder",
+        "sourceChild": "KingSunfish_Thunder"
+      },
+      {
+        "parentA": "169",
+        "parentASex": "",
+        "parentB": "167",
+        "parentBSex": "",
+        "sourceParentA": "KingSunfish",
+        "sourceParentB": "ElecLizard",
+        "sourceChild": "KingSunfish_Thunder"
+      }
+    ],
+    "138B": [
+      {
+        "parentA": "138B",
+        "parentASex": "",
+        "parentB": "138B",
+        "parentBSex": "",
+        "sourceParentA": "GrassGolem_Dark",
+        "sourceParentB": "GrassGolem_Dark",
+        "sourceChild": "GrassGolem_Dark"
+      },
+      {
+        "parentA": "138",
+        "parentASex": "",
+        "parentB": "135",
+        "parentBSex": "",
+        "sourceParentA": "GrassGolem",
+        "sourceParentB": "CandleGhost",
+        "sourceChild": "GrassGolem_Dark"
+      }
+    ],
+    "142B": [
+      {
+        "parentA": "142B",
+        "parentASex": "",
+        "parentB": "142B",
+        "parentBSex": "",
+        "sourceParentA": "CubeTurtle_Neutral",
+        "sourceParentB": "CubeTurtle_Neutral",
+        "sourceChild": "CubeTurtle_Neutral"
+      },
+      {
+        "parentA": "142",
+        "parentASex": "",
+        "parentB": "157",
+        "parentBSex": "",
+        "sourceParentA": "CubeTurtle",
+        "sourceParentB": "WhiteDeer",
+        "sourceChild": "CubeTurtle_Neutral"
+      }
+    ],
+    "171B": [
+      {
+        "parentA": "171B",
+        "parentASex": "",
+        "parentB": "171B",
+        "parentBSex": "",
+        "sourceParentA": "GhostDragon_Fire",
+        "sourceParentB": "GhostDragon_Fire",
+        "sourceChild": "GhostDragon_Fire"
+      },
+      {
+        "parentA": "171",
+        "parentASex": "",
+        "parentB": "122",
+        "parentBSex": "",
+        "sourceParentA": "GhostDragon",
+        "sourceParentB": "Suzaku",
+        "sourceChild": "GhostDragon_Fire"
+      }
+    ],
+    "105B": [
+      {
+        "parentA": "105B",
+        "parentASex": "",
+        "parentB": "105B",
+        "parentBSex": "",
+        "sourceParentA": "VolcanoDragon_Ice",
+        "sourceParentB": "VolcanoDragon_Ice",
+        "sourceChild": "VolcanoDragon_Ice"
+      },
+      {
+        "parentA": "105",
+        "parentASex": "",
+        "parentB": "129B",
+        "parentBSex": "",
+        "sourceParentA": "VolcanoDragon",
+        "sourceParentB": "VolcanicMonster_Ice",
+        "sourceChild": "VolcanoDragon_Ice"
+      }
+    ],
+    "131B": [
+      {
+        "parentA": "131B",
+        "parentASex": "",
+        "parentB": "131B",
+        "parentBSex": "",
+        "sourceParentA": "RockBeast_Ice",
+        "sourceParentB": "RockBeast_Ice",
+        "sourceChild": "RockBeast_Ice"
+      },
+      {
+        "parentA": "131",
+        "parentASex": "",
+        "parentB": "134",
+        "parentBSex": "",
+        "sourceParentA": "RockBeast",
+        "sourceParentB": "Yeti",
+        "sourceChild": "RockBeast_Ice"
+      }
+    ],
+    "128B": [
+      {
+        "parentA": "128B",
+        "parentASex": "",
+        "parentB": "128B",
+        "parentBSex": "",
+        "sourceParentA": "SwordCutlassfish_Fire",
+        "sourceParentB": "SwordCutlassfish_Fire",
+        "sourceChild": "SwordCutlassfish_Fire"
+      },
+      {
+        "parentA": "128",
+        "parentASex": "",
+        "parentB": "55B",
+        "parentBSex": "",
+        "sourceParentA": "SwordCutlassfish",
+        "sourceParentB": "SharkKid_Fire",
+        "sourceChild": "SwordCutlassfish_Fire"
+      }
+    ],
+    "163B": [
+      {
+        "parentA": "163B",
+        "parentASex": "",
+        "parentB": "163B",
+        "parentBSex": "",
+        "sourceParentA": "ElecSnail_Ground",
+        "sourceParentB": "ElecSnail_Ground",
+        "sourceChild": "ElecSnail_Ground"
+      },
+      {
+        "parentA": "163",
+        "parentASex": "",
+        "parentB": "37B",
+        "parentBSex": "",
+        "sourceParentA": "ElecSnail",
+        "sourceParentB": "TentacleTurtle_Ground",
+        "sourceChild": "ElecSnail_Ground"
+      }
+    ],
+    "100B": [
+      {
+        "parentA": "100B",
+        "parentASex": "",
+        "parentB": "100B",
+        "parentBSex": "",
+        "sourceParentA": "CactusDoll_Dark",
+        "sourceParentB": "CactusDoll_Dark",
+        "sourceChild": "CactusDoll_Dark"
+      },
+      {
+        "parentA": "100",
+        "parentASex": "",
+        "parentB": "147",
+        "parentBSex": "",
+        "sourceParentA": "CactusDoll",
+        "sourceParentB": "BlueberryFairy",
+        "sourceChild": "CactusDoll_Dark"
+      }
+    ],
+    "81B": [
+      {
+        "parentA": "81B",
+        "parentASex": "",
+        "parentB": "81B",
+        "parentBSex": "",
+        "sourceParentA": "GrassMinotaur_Ice",
+        "sourceParentB": "GrassMinotaur_Ice",
+        "sourceChild": "GrassMinotaur_Ice"
+      },
+      {
+        "parentA": "81",
+        "parentASex": "",
+        "parentB": "131B",
+        "parentBSex": "",
+        "sourceParentA": "GrassMinotaur",
+        "sourceParentB": "RockBeast_Ice",
+        "sourceChild": "GrassMinotaur_Ice"
+      }
+    ]
+  }
+}
