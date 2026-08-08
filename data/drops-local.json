@@ -1,14 +1,14 @@
 {
   "meta": {
     "gameVersion": "v1.0.0",
-    "generatedAt": "2026-08-08T14:53:34.966Z",
+    "generatedAt": "2026-08-08T14:55:20.062Z",
     "source": "Palworld DT_PalDropItem-derived dataset",
     "count": 287,
     "rawDropCharacters": 1044
   },
   "byId": {
     "1": {
-      "sourcePalId": "Quest_Farmer03_SheepBall",
+      "sourcePalId": "SheepBall",
       "items": [
         {
           "itemId": "Wool",
@@ -27,7 +27,7 @@
       ]
     },
     "2": {
-      "sourcePalId": "Quest_Farmer03_PinkCat",
+      "sourcePalId": "PinkCat",
       "items": [
         {
           "itemId": "Berries",
@@ -189,7 +189,7 @@
       ]
     },
     "12": {
-      "sourcePalId": "PlantSlime_Flower",
+      "sourcePalId": "PlantSlime",
       "items": [
         {
           "itemId": "BerrySeeds",
@@ -197,13 +197,6 @@
           "chance": 100,
           "min": 1,
           "max": 1
-        },
-        {
-          "itemId": "Poppy",
-          "name": "美丽花朵",
-          "chance": 100,
-          "min": 3,
-          "max": 3
         },
         {
           "itemId": "PalItem_PlantSlime",
@@ -1327,7 +1320,7 @@
       ]
     },
     "73": {
-      "sourcePalId": "LizardMan_Oilrig",
+      "sourcePalId": "LizardMan",
       "items": [
         {
           "itemId": "TreasureBoxKey01",
@@ -1467,7 +1460,7 @@
       ]
     },
     "80": {
-      "sourcePalId": "HadesBird_Oilrig",
+      "sourcePalId": "HadesBird",
       "items": [
         {
           "itemId": "Venom",
@@ -2655,7 +2648,7 @@
       ]
     },
     "145": {
-      "sourcePalId": "DarkAlien_Oilrig",
+      "sourcePalId": "DarkAlien",
       "items": [
         {
           "itemId": "MeteorDrop",
@@ -2900,7 +2893,7 @@
       ]
     },
     "159": {
-      "sourcePalId": "WingGolem_Oilrig",
+      "sourcePalId": "WingGolem",
       "items": [
         {
           "itemId": "CopperOre",
@@ -3409,7 +3402,7 @@
       ]
     },
     "188": {
-      "sourcePalId": "Horus_Oilrig",
+      "sourcePalId": "Horus",
       "items": [
         {
           "itemId": "FireOrgan",
@@ -4632,7 +4625,7 @@
       ]
     },
     "91B": {
-      "sourcePalId": "Baphomet_Dark_Oilrig",
+      "sourcePalId": "Baphomet_Dark",
       "items": [
         {
           "itemId": "Horn",
