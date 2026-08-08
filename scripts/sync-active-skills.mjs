@@ -1,0 +1,5 @@
+import fs from 'node:fs/promises';
+const SRC='https://raw.githubusercontent.com/zhudikangta/paltoolbox/main/PalToolbox/%E6%B8%B8%E6%88%8F%E5%86%85%E5%AE%B9/%E5%B9%BB%E5%85%BD%E5%B8%95%E9%B2%811.0/%E6%95%B0%E6%8D%AE%E5%8C%85/%E6%8A%80%E8%83%BD.json';
+const r=await fetch(SRC);if(!r.ok)throw new Error(`Skill source HTTP ${r.status}`);const src=await r.json();
+const byId={};for(const s of src.active||[]){if(!s.id)continue;byId[s.id]={sourceName:s['中文名']||'',element:s['属性英文']||'',category:s['类别']||'',power:Number(s['威力']??0),cooldown:Number(s['冷却']??0),minRange:Number(s['最小射程']??0),maxRange:Number(s['最大射程']??0),description:s['描述']||'',exclusive:!!s['专属'],skillFruit:!!s['技能果实'],effects:s['效果']||[],weaponDamage:!!s['武器伤害'],disabled:!!s['禁用']};}
+const out={meta:{gameVersion:'v1.0.0',generatedAt:new Date().toISOString(),source:'Palworld active skill data tables',count:Object.keys(byId).length},byId};if(out.meta.count<300)throw new Error(`Expected >=300 active skills, got ${out.meta.count}`);await fs.mkdir('data',{recursive:true});await fs.writeFile('data/active-skills-local.json',JSON.stringify(out,null,2)+'\n');console.log(`Wrote ${out.meta.count} active skills`);
