@@ -24,27 +24,33 @@
   }
   function addFromButton(button){
     if(!button||button.disabled||mode!=='boss')return false;
-    const raw=button.dataset.addboss??button.dataset.manualadd;
-    if(raw==null)return false;
+    const id=button.dataset.addboss??button.dataset.manualadd;
+    if(!id)return false;
     const api=window.PALWERK_BOSS_BUILDER;
     if(!api?.add)return false;
-    api.add(unesc(raw));
-    return true;
+    /* dataset values are already HTML-decoded by the browser. Do not call the
+       app-local unesc helper here: it is not in this module's scope. */
+    return api.add(id)===true;
   }
-  /* UI interaction bridge: the visual redesign may wrap/redecorate builder rows,
-     but team actions must always continue to call the existing builder engine. */
+  /* Interaction bridge for the redesigned builder. Capture is intentional so
+     wrapped/redecorated rows still delegate to the existing builder engine. */
   app.addEventListener('click',e=>{
     if(mode!=='boss')return;
     const addButton=e.target.closest?.('[data-addboss],[data-manualadd]');
     if(addButton){
-      e.preventDefault();e.stopPropagation();
+      e.preventDefault();
+      e.stopPropagation();
       addFromButton(addButton);
       return;
     }
     const row=e.target.closest?.('.bossrec,.bosssearchrow');
     if(row&&!e.target.closest?.('button,input,select,a')){
       const rowAdd=row.querySelector('[data-addboss],[data-manualadd]');
-      if(rowAdd&&!rowAdd.disabled){e.preventDefault();addFromButton(rowAdd)}
+      if(rowAdd&&!rowAdd.disabled){
+        e.preventDefault();
+        e.stopPropagation();
+        addFromButton(rowAdd);
+      }
     }
   },true);
   const obs=new MutationObserver(()=>{enhanceBuilder();enhanceDetail()});obs.observe(app,{childList:true,subtree:true});enhanceBuilder();enhanceDetail();
