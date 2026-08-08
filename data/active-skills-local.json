@@ -1,0 +1,6281 @@
+{
+  "meta": {
+    "gameVersion": "v1.0.0",
+    "generatedAt": "2026-08-08T15:18:40.883Z",
+    "source": "Palworld active skill data tables",
+    "count": 384
+  },
+  "byId": {
+    "TidalWave": {
+      "sourceName": "zh-Hans Text",
+      "element": "Water",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 15,
+      "minRange": 100,
+      "maxRange": 1000,
+      "description": "大范围掀起小波浪\r\n延缓敌人行动后，\r\n用大型波浪攻击敌人。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "WaterWave": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 5,
+      "minRange": 700,
+      "maxRange": 1500,
+      "description": "用水之龙卷风在前方生成墙壁\r\n并使其缓慢前进。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "AquaJet": {
+      "sourceName": "水流射击",
+      "element": "Water",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "朝敌人发射高速水弹。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WaterGun": {
+      "sourceName": "水枪",
+      "element": "Water",
+      "category": "射击",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "发射水弹\r\n笔直飞向对方。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "BubbleShot": {
+      "sourceName": "泡泡射击",
+      "element": "Water",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 1000,
+      "maxRange": 3500,
+      "description": "发射大量泡沫\r\n并缓慢追击敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "AcidRain": {
+      "sourceName": "酸雨",
+      "element": "Water",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 100,
+      "maxRange": 5000,
+      "description": "生成酸性云朵\r\n在敌人头上下酸雨。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WaterBall": {
+      "sourceName": "爆裂水球",
+      "element": "Water",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "在头上生成巨大水球\r\n瞄准敌人并发射。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BluePlatypus_Toboggan": {
+      "sourceName": "乘风破浪",
+      "element": "Water",
+      "category": "近战",
+      "power": 100,
+      "cooldown": 120,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "HydroPump": {
+      "sourceName": "高压水炮",
+      "element": "Water",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 1800,
+      "description": "猛烈地释放出水流\r\n并向前方大范围横扫。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Intimidate": {
+      "sourceName": "恐吓",
+      "element": "Normal",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "zh-Hans Text",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "麻痹"
+      ],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "Human_Punch": {
+      "sourceName": "击打",
+      "element": "Normal",
+      "category": "近战",
+      "power": 12,
+      "cooldown": 1,
+      "minRange": 500,
+      "maxRange": 600,
+      "description": "相信自己的拳头，出拳攻击。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": true,
+      "disabled": false
+    },
+    "AirCanon": {
+      "sourceName": "空气弹",
+      "element": "Normal",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "以急速射出空气团块。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ChickenPal_ChickenPeck": {
+      "sourceName": "皮皮冲鸡",
+      "element": "Normal",
+      "category": "近战",
+      "power": 30,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "皮皮鸡的专用技能。\r\n瞄准并飞扑向敌人后，用尖喙突袭敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PowerShot": {
+      "sourceName": "能量射击",
+      "element": "Normal",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 600,
+      "maxRange": 3000,
+      "description": "积蓄能量，\r\n并将其化作子弹射出。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SheepBall_Roll": {
+      "sourceName": "滚滚毛球",
+      "element": "Normal",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "棉悠悠的专用技能。\r\n咕噜咕噜地滚动并追击敌人。\r\n攻击后会因晕眩而无法动弹。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_PinkCat_CatPunch": {
+      "sourceName": "喵喵拳",
+      "element": "Normal",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "捣蛋猫的专用技能。\r\n挥舞双臂追击敌人，\r\n连续挥出利拳。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Alpaca_Tackle": {
+      "sourceName": "绒毛冲撞",
+      "element": "Normal",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 300,
+      "maxRange": 1500,
+      "description": "美露帕的专用技能。\r\n散发出可爱的气场并朝向前方冲刺。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Garm_Bite": {
+      "sourceName": "狂野獠牙",
+      "element": "Normal",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 800,
+      "maxRange": 900,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Deer_PushupHorn": {
+      "sourceName": "尖角顶击",
+      "element": "Normal",
+      "category": "近战",
+      "power": 90,
+      "cooldown": 4,
+      "minRange": 550,
+      "maxRange": 2000,
+      "description": "紫霞鹿及亚种的专用技能。\r\n面向敌人冲刺，扬起尖角攻击敌人。\r\n如在骑乘时发动，可操控前进方向。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Boar_Tackle": {
+      "sourceName": "猪突猛进",
+      "element": "Earth",
+      "category": "近战",
+      "power": 60,
+      "cooldown": 4,
+      "minRange": 300,
+      "maxRange": 2500,
+      "description": "草莽猪的专用技能。\r\n瞄准敌人后，猛烈地冲向敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Eagle_GlidingNail": {
+      "sourceName": "滑空爪",
+      "element": "Normal",
+      "category": "近战",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "天擒鸟的专用技能。\r\n向前伸出脚爪，\r\n以滑翔的姿态猛力冲向目标。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NaughtyCat_CatPress": {
+      "sourceName": "喵咪扑击",
+      "element": "Normal",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "笑魇猫的专用技能。\r\n带着无所畏惧的笑容跳起，\r\n再用全身的力量辗压敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Throw": {
+      "sourceName": "zh-Hans Text",
+      "element": "Normal",
+      "category": "射击",
+      "power": 60,
+      "cooldown": 1,
+      "minRange": 1000,
+      "maxRange": 2500,
+      "description": "zh-Hans Text",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_HawkBird_Storm": {
+      "sourceName": "龙卷风",
+      "element": "Normal",
+      "category": "近战",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "疾风隼的专用技能。\r\n在前方制造出龙卷风后，\r\n以滑翔的姿态冲向敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PowerBall": {
+      "sourceName": "元气弹",
+      "element": "Normal",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "积蓄大量能量，\r\n并将其化作巨大球体射出。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SakuraSaurus_SideTackle": {
+      "sourceName": "铁山靠",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "连理龙及亚种的专用技能。\r\n侧身站立，\r\n然后向前猛撞敌人，并将其击飞。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Gorilla_GroundPunch": {
+      "sourceName": "猩猩连打",
+      "element": "Normal",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "铁拳猿及亚种的专用技能。\r\n猛击地面两次后高高跳起，\r\n再赏给对方强力的一拳。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FengyunDeeper_CloudTempest": {
+      "sourceName": "阴云之岚",
+      "element": "Normal",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 550,
+      "maxRange": 2000,
+      "description": "云海鹿的专用技能。\r\n操控大气，借助风压向前猛冲。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Scratch": {
+      "sourceName": "zh-Hans Text",
+      "element": "Normal",
+      "category": "近战",
+      "power": 100,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 200,
+      "description": "zh-Hans Text",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "麻痹"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WorkAttack": {
+      "sourceName": "",
+      "element": "Normal",
+      "category": "近战",
+      "power": 100,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingAlpaca_BodyPress": {
+      "sourceName": "泰山压顶",
+      "element": "Normal",
+      "category": "近战",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "君王美露帕及亚种的专用技能。\r\n向上高高跳起后，\r\n用丰满的庞大身躯辗压敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SaintCentaur_OneSpearRushes": {
+      "sourceName": "闪枪冲锋",
+      "element": "Normal",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "圣光骑士的专用技能。\r\n让神圣的力量覆满自身，\r\n并以左手持长枪向前冲锋。\r\n右手的盾牌在冲锋时能挡下所有攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "HyperBeam": {
+      "sourceName": "帕鲁光束",
+      "element": "Normal",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 1800,
+      "description": "积蓄破坏性的能量，\r\n朝前方大范围射出威力惊人的光束。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SelfDestruct": {
+      "sourceName": "自爆",
+      "element": "Normal",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "赌上性命引发爆炸。\r\n使用后会陷入无法战斗的状态。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SelfDestruct_Bee": {
+      "sourceName": "蜂！蜂！蜂！",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "赌上性命引发爆炸。\r\n是种为了荣誉而牺牲自己的技能。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SelfExplosion": {
+      "sourceName": "超自爆",
+      "element": "Normal",
+      "category": "射击",
+      "power": 1200,
+      "cooldown": 60,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "赌上性命引发大爆炸。 \r\n使用后便会化作夜空中闪耀的明星。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WindCutter": {
+      "sourceName": "风刃",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "发射超高速风刃\r\n瞄准后笔直飞向敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SeedMachinegun": {
+      "sourceName": "种子机关枪",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "释放大量坚硬的种子\r\n攻击前方的敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FlowerDinosaur_Whip": {
+      "sourceName": "花龙摆尾",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "花冠龙及亚种的专用技能。\r\n使用巨大的尾巴拍打前方地面，\r\n对直线范围造成冲击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SpecialCutter": {
+      "sourceName": "三重风刃",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "瞄准敌人发射\r\n3发直线飞行的超高速风刃。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SeedMine": {
+      "sourceName": "种子地雷",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 800,
+      "maxRange": 5000,
+      "description": "发射危险的种子。\r\n碰到敌人会绽开并爆炸。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_RobinHood_BowSnipe": {
+      "sourceName": "精准狙击",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "羽箭射手及亚种的专用技能。\r\n拉满弓弦全神贯注瞄准敌人后，\r\n对敌人进行射击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_QueenBee_SpinLance": {
+      "sourceName": "回旋杖击",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "女皇蜂的专用技能。\r\n以法杖聚集力量后，再旋转法杖来释放能量。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "GrassTornado": {
+      "sourceName": "绿野飓风",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 700,
+      "maxRange": 3000,
+      "description": "在左右两侧生成龙卷风，\r\n并扇向敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassPanda_MusclePunch": {
+      "sourceName": "筋肉重拳",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 700,
+      "description": "叶胖达的专用技能。\r\n不停转动右臂，向前方猛力出拳攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RootAttack": {
+      "sourceName": "缠绕地刺",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "用地下尖锐的根部追击敌人\r\n并从脚下贯穿敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SolarBeam": {
+      "sourceName": "太阳光束",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 1800,
+      "description": "积蓄太阳之力\r\n瞄准敌人发射强劲光线。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SnowStorm": {
+      "sourceName": "zh-Hans Text",
+      "element": "Ice",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 5,
+      "minRange": 100,
+      "maxRange": 1000,
+      "description": "将冰冻之力聚集四周\r\n攻击附近的敌人后\r\n瞄准敌人释放暴风雪。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "EnergyShot": {
+      "sourceName": "冰导弹",
+      "element": "Ice",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 5,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "zh-Hans Text",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "IceMissile": {
+      "sourceName": "冰雪飞弹",
+      "element": "Ice",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 800,
+      "maxRange": 3000,
+      "description": "在上空生成尖锐的冰柱\r\n瞄准敌人后发射冰柱。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "IceBlade": {
+      "sourceName": "冰刃",
+      "element": "Ice",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "制造出新月型的冰刃，\r\n将之射向前方。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_IceDeer_IceHorn": {
+      "sourceName": "霜角猛攻",
+      "element": "Ice",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 550,
+      "maxRange": 2000,
+      "description": "严冬鹿的专用技能。\r\n向前冲刺并以雄伟的冰角刺穿敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "BlizzardLance": {
+      "sourceName": "冰刺",
+      "element": "Ice",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 100,
+      "maxRange": 5000,
+      "description": "在敌人的脚边\r\n生成尖锐的冰刃。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_CaptainPenguin_BodySlide": {
+      "sourceName": "王者滑击",
+      "element": "Ice",
+      "category": "射击",
+      "power": 140,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "企丸王的专用技能。\r\n全身散发寒气，并采用腹部着地之姿滑行，\r\n往敌人的方向用力撞去。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FrostBreath": {
+      "sourceName": "凛冬之息",
+      "element": "Ice",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 1500,
+      "description": "朝敌人喷出冰冷空气，\r\n持续对目标造成伤害。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_VolcanicMonster_Ice_IceAttack": {
+      "sourceName": "霜冻爆裂",
+      "element": "Ice",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "寒霜兽的专用技能。 \r\n举起前脚猛击地面， \r\n使冰雪于敌人所在处喷发。 \r\n喷发时四周更会有雪球倾泻而下。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_IceHorse_IceBladeAttack": {
+      "sourceName": "冰晶之翼",
+      "element": "Ice",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "唤冬兽及亚种的专用技能。\r\n凝结冷空气，让翅膀覆上冰晶，\r\n并在全力奔跑的同时以冰翼撕裂敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "IcicleThrow": {
+      "sourceName": "钻石星辰",
+      "element": "Ice",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "生成巨大的冰块\r\n瞄准敌人后高速发射。\r\n中弹时，可同时给周围造成冲击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FireBlast": {
+      "sourceName": "烈焰射击",
+      "element": "Fire",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "瞄准后发射可笔直飞向敌人\r\n的火焰弹。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FireSeed": {
+      "sourceName": "烈焰溅射",
+      "element": "Fire",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 1000,
+      "maxRange": 3000,
+      "description": "向敌人发射火球。\r\n稍作飞行后会破裂\r\n并向前方放射小型火球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FlameBuffalo_FlameHorn": {
+      "sourceName": "炽热角击",
+      "element": "Fire",
+      "category": "近战",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 1000,
+      "maxRange": 2500,
+      "description": "炽焰牛的专用技能。\r\n锁定敌人后，\r\n以凶猛气势顶着锐利牛角冲向对方。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FlareArrow": {
+      "sourceName": "烈焰箭",
+      "element": "Fire",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "连续发射3支高速火箭\r\n并追击敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Ronin_Iai": {
+      "sourceName": "居合斩",
+      "element": "Fire",
+      "category": "近战",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "浪刃武士及亚种的专用技能。\r\n摆出迎战姿势后瞬间移动至敌人面前，\r\n并使出超高速的拔刀攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Flamethrower": {
+      "sourceName": "烈焰放射",
+      "element": "Fire",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 1500,
+      "description": "面向敌人释放火焰，\r\n持续对目标造成伤害。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Baphomet_SwallowKite": {
+      "sourceName": "狱火爪",
+      "element": "Fire",
+      "category": "近战",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 600,
+      "maxRange": 1200,
+      "description": "炎魔羊及亚种的专用技能。\r\n接近目标后跳起同时以左手爪子向上挥击，\r\n再用右手爪子迅速向下挥砍。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_AmaterasuWolf_FireCharge": {
+      "sourceName": "风林火山",
+      "element": "Fire",
+      "category": "近战",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 1000,
+      "maxRange": 3500,
+      "description": "苍焰狼的专用技能。\r\n带着缠绕全身的青蓝火焰，气势汹汹地向前猛冲。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FlareTornado": {
+      "sourceName": "烈焰风暴",
+      "element": "Fire",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 700,
+      "maxRange": 3000,
+      "description": "在左右两侧生成炙热的龙卷风，\r\n并扇向敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FireKirin_Tackle": {
+      "sourceName": "烈焰冲撞",
+      "element": "Fire",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "火麒麟的专用技能。\r\n带着缠绕全身的火焰向前猛冲。\r\n途经之处均会留下滚滚火焰。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_VolcanicMonster_MagmaAttack": {
+      "sourceName": "火山爆发",
+      "element": "Fire",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "熔岩兽的专用技能。\r\n举起前脚猛击地面，\r\n使岩浆于敌人所在处喷发。\r\n喷发时四周更会有火山弹倾泻而下。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Inferno": {
+      "sourceName": "地狱火",
+      "element": "Fire",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 100,
+      "maxRange": 1000,
+      "description": "使敌人周围地面活性化，\r\n并在一定时间后爆炸。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Horus_FlareBird": {
+      "sourceName": "凤凰翔波",
+      "element": "Fire",
+      "category": "近战",
+      "power": 320,
+      "cooldown": 16,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "荷鲁斯的专用技能。 \r\n扇起炙热龙卷风后， \r\n身体被狱火包围，一边滑翔一边突袭敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FireBall": {
+      "sourceName": "烈焰球",
+      "element": "Fire",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "在头上生成巨大火球，并向敌人发射。\r\n中弹后会爆炸，造成大范围爆炸冲击波。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "CrossThunder": {
+      "sourceName": "十字雷击",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 7,
+      "minRange": 500,
+      "maxRange": 1000,
+      "description": "堵住敌人的左右两侧\r\n生成可向两个方向前进的雷击。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "ThunderRain": {
+      "sourceName": "广域雷击",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "召唤雷电\r\n在一定时间后生成大量落电。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SpreadPulse": {
+      "sourceName": "电火花",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 1200,
+      "maxRange": 5000,
+      "description": "向前方发射呈扇形扩散的雷电球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Funnel_RaijinDaughter": {
+      "sourceName": "",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 30,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ElecWave": {
+      "sourceName": "冲击波",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "快速放电\r\n给周围造成冲击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ThunderBall": {
+      "sourceName": "闪电球",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 100,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 2500,
+      "description": "发射雷电球\r\n并缓慢追击敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ThunderFunnel": {
+      "sourceName": "等离子浮游砲",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "生成两个蕴含雷电能量的球\r\n然后瞄准敌人，从中发射无数雷球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "LockonLaser": {
+      "sourceName": "锁定雷射",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 140,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "瞄准敌人后\r\n发射超高速的雷电激光。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ElecPanda_ElecScratch": {
+      "sourceName": "霹雳连爪",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 150,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 700,
+      "description": "暴电熊的专用技能。\r\n飞扑向敌人，并用带电流的爪子将其劈开。\r\n飞扑2次后，面向地面伸出爪子，\r\n大范围扩散电流。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "LineThunder": {
+      "sourceName": "雷击",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 2000,
+      "description": "生成可笔直前进的雷击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassPanda_Electric_ElectricPunch": {
+      "sourceName": "爆裂拳击",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 180,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 700,
+      "description": "雷胖达的专用技能。\r\n不停转动右臂，向前方挥出带电拳击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ThreeThunder": {
+      "sourceName": "三重雷击",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人头上生成3次落雷。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Kirin_LightningTackle": {
+      "sourceName": "疾风雷击",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 1200,
+      "description": "雷角马的专用技能。\r\n在自己的周围降下落雷，\r\n同时猛力冲向敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDragonMan_ThunderSwordAttack": {
+      "sourceName": "雷神之枪",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "波鲁杰克斯的专用技能。\r\n向上跳起后召唤雷枪，\r\n将之丢向敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "LightningStrike": {
+      "sourceName": "闪电冲击",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "让自己化作避雷针引来雷电，\r\n并在原地引发闪电爆炸。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Thunderbolt": {
+      "sourceName": "闪电伏特",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "积蓄雷电之力\r\n瞄准敌人释放强劲电击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "MudShot": {
+      "sourceName": "泥浆投掷",
+      "element": "Earth",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "用黏糊糊的泥巴\r\n瞄准敌人并发射。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "StoneShotgun": {
+      "sourceName": "碎石霰弹",
+      "element": "Earth",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "向前方射出大量的小石头碎屑。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DrillGame_ShellAttack": {
+      "sourceName": "甲壳回旋",
+      "element": "Earth",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 200,
+      "maxRange": 1500,
+      "description": "碎岩龟的专用技能。\r\n以全身高速旋转的方式移动，\r\n并以钻头刨削敌人，持续对目标造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ThrowRock": {
+      "sourceName": "投石",
+      "element": "Earth",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 2500,
+      "description": "将岩石从眼前的地上吸附起来\r\n瞄准敌人并发射。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞",
+        "麻痹"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_HerculesBeetle_BeetleTackle": {
+      "sourceName": "终极角击",
+      "element": "Earth",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "铠格力斯及亚种的专用技能。\r\n以四支粗壮的角串起敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SandTornado": {
+      "sourceName": "沙尘旋风",
+      "element": "Earth",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 100,
+      "maxRange": 3000,
+      "description": "在左右两侧生成砂砾龙卷风，\r\n并扇向敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Anubis_LowRoundKick": {
+      "sourceName": "回旋踢",
+      "element": "Earth",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "阿努比斯的专用技能。\r\n用强健的腿脚回旋飞踢，大范围横扫周围的敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Grassmammoth_Earthquake": {
+      "sourceName": "地震",
+      "element": "Earth",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "森猛犸及亚种的专用技能。\r\n以巨大的身躯撼动大地，\r\n对四周大范围的目标造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Anubis_Tackle": {
+      "sourceName": "巨力冲锋",
+      "element": "Earth",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 1500,
+      "maxRange": 3000,
+      "description": "阿努比斯的专用技能。\r\n快速移动追击敌人，\r\n释放能量同时不断挥出强劲利拳。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Anubis_GroundPunch": {
+      "sourceName": "粉碎大地",
+      "element": "Earth",
+      "category": "近战",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "阿努比斯的专用技能。 \r\n高高跃起后，对地面使出猛力一击。 \r\n产生的衝击波将对大范围的目标造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RockLance": {
+      "sourceName": "岩石锐矛",
+      "element": "Earth",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 100,
+      "maxRange": 5000,
+      "description": "在敌人的脚边\r\n生成尖锐的岩石长矛。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DragonCanon": {
+      "sourceName": "龙息弹",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "用蕴藏龙之力的能量弹\r\n瞄准敌人并发射。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DragonWave": {
+      "sourceName": "龙之波动",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 200,
+      "description": "快速释放龙之力\r\n给周围造成冲击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DragonBreath": {
+      "sourceName": "龙息",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 1500,
+      "description": "向前方呼出蕴含龙之力的气息\r\n，持续对目标造成伤害。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FairyDragon_FairyTornado": {
+      "sourceName": "神秘旋风",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 150,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "精灵龙及亚种的专用技能。\r\n发射2股蕴含不可思议能力的龙卷风，\r\n追击敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_JetDragon_JumpBeam": {
+      "sourceName": "光束彗星",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "空涡龙的专用技能。\r\n展开发光的翅膀，\r\n并发射大量光束朝敌人飞去。\r\n光束命中目标便会引发爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DragonMeteor": {
+      "sourceName": "龙彗星",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "召唤大量小陨石\r\n瞄准敌人并发射。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PoisonFog": {
+      "sourceName": "毒雾",
+      "element": "Dark",
+      "category": "射击",
+      "power": 0,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 400,
+      "description": "于前方制造毒雾，\r\n使目标陷入中毒状态。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Funnel_DreamDemon": {
+      "sourceName": "",
+      "element": "Dark",
+      "category": "射击",
+      "power": 20,
+      "cooldown": 5,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PoisonShot": {
+      "sourceName": "剧毒射击",
+      "element": "Dark",
+      "category": "射击",
+      "power": 30,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "用蕴藏剧毒之力的淤泥\r\n瞄准敌人并发射。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DarkBall": {
+      "sourceName": "暗黑球",
+      "element": "Dark",
+      "category": "射击",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 1000,
+      "description": "发射以缓慢速度追击敌人的黑暗之球。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DarkWave": {
+      "sourceName": "暗影波动",
+      "element": "Dark",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "快速释放黑暗之力\r\n给周围造成冲击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkCrow_TelePoke": {
+      "sourceName": "幻影突袭",
+      "element": "Dark",
+      "category": "近战",
+      "power": 70,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "黑鸦隐士的专用技能。\r\n瞬间移动至敌人身旁，\r\n再以鸟喙发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Werewolf_Scratch": {
+      "sourceName": "飞跃爪击",
+      "element": "Dark",
+      "category": "近战",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 400,
+      "maxRange": 500,
+      "description": "月镰魔的专用技能。\r\n向前一跃，迅速斩下两击。\r\n且每次斩击都充满了暗属性的力量。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "GhostFlame": {
+      "sourceName": "鬼火",
+      "element": "Dark",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "发射3个怨念\r\n并执着追击敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FireKirin_Dark_DarkTossin": {
+      "sourceName": "暗焰冲撞",
+      "element": "Dark",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "邪麒麟的专用技能。 \r\n带着缠绕全身的暗黑火焰向前猛冲。 \r\n途经之处均会留下滚滚火焰。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ShadowBall": {
+      "sourceName": "恶梦球",
+      "element": "Dark",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "生成巨大的黑暗之球\r\n瞄准敌人并高速发射。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Psychokinesis": {
+      "sourceName": "念动引力",
+      "element": "Dark",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "用重力剥夺敌人的行动自由，\r\n并将其从高处砸向地面。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlackCentaur_TwoSpearRushes": {
+      "sourceName": "双枪一闪",
+      "element": "Dark",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "混沌骑士的专用技能。 \r\n以旋风包覆双手的长枪后， \r\n朝前方冲刺并左右交替刺击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DarkLaser": {
+      "sourceName": "暗黑雷射",
+      "element": "Dark",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 1800,
+      "description": "积蓄黑暗之力\r\n瞄准敌人发射强劲光线。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlackGriffon_TackleLaser": {
+      "sourceName": "神圣灾祸",
+      "element": "Dark",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "异构格里芬的专用技能。\r\n在向前猛冲的同时制造出光球。\r\n光球会自动捕捉敌人，并射出大量激光。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DarkLegion": {
+      "sourceName": "黑暗之拥",
+      "element": "Dark",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "发射多个可以追击敌人的黑暗之球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WeaselDragon_FlyingTackle": {
+      "sourceName": "火箭冲撞",
+      "element": "Dragon",
+      "category": "近战",
+      "power": 80,
+      "cooldown": 4,
+      "minRange": 300,
+      "maxRange": 1500,
+      "description": "疾旋鼬及亚种的专用技能。\r\n短时间蓄力后，向前跃起。\r\n在着地时因为害怕一直都是紧闭着眼睛。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Tremor": {
+      "sourceName": "岩爆",
+      "element": "Earth",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 1200,
+      "description": "撼动地面， \r\n使大块岩石射向四面八方",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DiamondFall": {
+      "sourceName": "晶钻之雨",
+      "element": "Ice",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人头顶生无数个冰块，\r\n随后接连落下攻击目标。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "BeamSlicer": {
+      "sourceName": "切割龙息",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 350,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "用龙属性的射线一扫前方。\r\n被扫过地方将产生延迟爆炸。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NightLady_WarpBeam": {
+      "sourceName": "噩梦绽放",
+      "element": "Dark",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "贝菈露洁的专用技能。\r\n趁敌人不注意时隐去身影，并在现身的瞬间射出无数光线，\r\n且光线会犹如绽放的花朵般扩散。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NightLady_FlameNightmare": {
+      "sourceName": "烈焰华尔兹",
+      "element": "Dark",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "贝菈露洁的专用技能。\r\n在摇曳起舞的同时製造一圈圈火焰，\r\n使之向周围扩散，\r\n并发射妖异的火球来追击敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Commet": {
+      "sourceName": "陨星",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 180,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "召唤陨石垂直落下，\r\n并在撞击点产生冲击波。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DarkPulse": {
+      "sourceName": "黑暗霰射",
+      "element": "Dark",
+      "category": "射击",
+      "power": 60,
+      "cooldown": 4,
+      "minRange": 1200,
+      "maxRange": 5000,
+      "description": "向前方发射呈扇形扩散的高速暗黑球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DarkCanon": {
+      "sourceName": "黑暗弹",
+      "element": "Dark",
+      "category": "射击",
+      "power": 70,
+      "cooldown": 4,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "将带有黑暗力量的高速能量弹射向敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DarkArrow": {
+      "sourceName": "黑暗箭",
+      "element": "Dark",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "使用暗之力连续发射数支高速箭追击敌人。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Apocalypse": {
+      "sourceName": "启示录",
+      "element": "Dark",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 100,
+      "maxRange": 5000,
+      "description": "于敌人周围生成数个暗黑龙卷风。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NightLady_WarpBeam_Straight": {
+      "sourceName": "噩梦射线",
+      "element": "Dark",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "贝菈诺娃的专用技能。\r\n趁敌人不注意时隐去身影，并在再次现身的瞬间射出无数光线。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkScorpion_Pierce": {
+      "sourceName": "跳跃重刺",
+      "element": "Earth",
+      "category": "近战",
+      "power": 350,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "冥铠蝎及亚种的专用技能。\r\n高高跃起，用尾巴狠狠地将猎物刺穿。\r\n尾部含有毒素。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "StarMine": {
+      "sourceName": "诡雷繁星",
+      "element": "Normal",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人周围生成一碰就爆炸的星星。 \r\n星星在经过一定时间后，没有触碰也会爆炸。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FeatherOstrich_Tossin": {
+      "sourceName": "地之冲锋",
+      "element": "Earth",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 300,
+      "maxRange": 3500,
+      "description": "战冠雀的专用技能。\r\n一口气提高速度，向前方突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RootLance": {
+      "sourceName": "缠根牢狱",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人的位置和其周围刺出尖锐的根刺。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDragonMan_NumerousSwordAttack": {
+      "sourceName": "雷神之怒",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "波鲁杰克斯的专用技能。\r\n召唤数把雷枪，向敌人投掷而出，并引发爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingBahamut_AirCrash": {
+      "sourceName": "龙陨震击",
+      "element": "Dragon",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "殁殃的专用技能。\r\n高高跃上空中后，边在空中高速移动，边积蓄力量。\r\n然后打出全力一击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "LineGeyser": {
+      "sourceName": "瀑流击",
+      "element": "Water",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "召唤一束直线前进的水柱。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ChargeCanon": {
+      "sourceName": "龙息炮",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "向敌人发射积蓄着龙属性力量的能量弹。\r\n能量弹在着弹时将引发大范围爆炸。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingBahamut_ArmSmash": {
+      "sourceName": "焚天爆炎",
+      "element": "Fire",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "焰煌及亚种的专用技能。\r\n伸展开手臂，使肌肉剧烈膨胀后，\r\n猛地拍击在一起引发巨大爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WingGolem_RoundCutter": {
+      "sourceName": "回旋岩锯",
+      "element": "Earth",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 3500,
+      "description": "泰锋的专用技能。\r\n大幅回旋身体投掷出背后的岩盘。\r\n岩盘将会以圆弧轨道状飞行。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "BlastCanon": {
+      "sourceName": "绽裂龙息",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "向敌人的位置发射充满龙属性的能量弹。\r\n能量弹在着弹时将向周围扩散，在前方广范围引发爆炸。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ThreeCommet": {
+      "sourceName": "三重陨星",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "召唤陨石接连落下， \r\n并在撞击点产生冲击波。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "CommetRain": {
+      "sourceName": "陨星雨",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "召唤无数陨石落下， \r\n并在撞击点产生冲击波。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Eruption": {
+      "sourceName": "熔岩爆发",
+      "element": "Fire",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "向上空喷射无数熔岩弹。\r\n一段时间后，射出的熔岩弹将如雨一般散落在周围。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ElecPanda_GatlingAttack": {
+      "sourceName": "雷击的重型战车",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 550,
+      "cooldown": 24,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "暴电熊的专用技能。\r\n不知从哪取出加特林机枪进行扫射。\r\n最后一发将射出强力的充能弹。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LilyQueen_LilyHealing": {
+      "sourceName": "丰饶加护",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 0,
+      "cooldown": 240,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "百合女王的专用技能。\r\n使用治愈的力量恢复范围内同伴的HP。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "HolyBlast": {
+      "sourceName": "光击阵",
+      "element": "Normal",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人脚下和四周引发大范围的光柱爆炸。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkAlien_JumpScractch": {
+      "sourceName": "恶之爪",
+      "element": "Dark",
+      "category": "射击",
+      "power": 350,
+      "cooldown": 16,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "杰诺贝达的专用技能。\r\n灵活的跃起，用左手撕裂敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MoonQueen_MoonBeam": {
+      "sourceName": "皎月射线",
+      "element": "Normal",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "辉月伊的专用技能。\r\n将能量积蓄于背后的月亮，\r\n然后向前方发出新月形的射线。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FlameWall": {
+      "sourceName": "爆烈火墙",
+      "element": "Fire",
+      "category": "射击",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人的位置燃起火焰之墙。\r\n火墙将持续一段时间，\r\n对碰到的敌人造成伤害。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "AirBlade": {
+      "sourceName": "真空刃",
+      "element": "Normal",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 1500,
+      "maxRange": 5000,
+      "description": "扇形发射锋利的气刃。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MoonQueen_MoonBlade": {
+      "sourceName": "青月刃",
+      "element": "Normal",
+      "category": "射击",
+      "power": 350,
+      "cooldown": 16,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "辉月伊的专用技能。 \r\n挥出蕴含月光力量的高速二连斩击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SifuDog_Counter": {
+      "sourceName": "气合返",
+      "element": "Normal",
+      "category": "近战",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "汪宗师的专用技能。\r\n摆出合气道的架势，在架势中受到的攻击将无效化，\r\n同时一瞬间迫近敌人，使出全身力量掌击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WallSplash": {
+      "sourceName": "间隙潮",
+      "element": "Water",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "连续在敌人的脚下生成水柱结成的墙壁。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "TriSpark": {
+      "sourceName": "三相火花",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "同时发射直线飞行的高速雷球，\r\n和追踪敌人的慢速雷球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ThunderStorm": {
+      "sourceName": "雷霆飓风",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "召唤巨大的雷属性龙卷风。\r\n龙卷风将追踪敌人缓慢移动。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ScorpionMan_Uppercut": {
+      "sourceName": "升虫拳",
+      "element": "Dark",
+      "category": "近战",
+      "power": 350,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "蛊刺妖的专用技能。\r\n快速缩短和敌人的距离，\r\n狠狠的用钳子使出上勾拳。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FlameFunnel": {
+      "sourceName": "流火",
+      "element": "Fire",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "使用火焰的力量做出复数个球体，\r\n然后向敌人发射无数火球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SandTwister": {
+      "sourceName": "沙尘暴",
+      "element": "Earth",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "生成复数个砂龙卷。\r\n龙卷风们将一边自旋一边绕中心旋转。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RangeThunder": {
+      "sourceName": "雷动八方",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "向八个方向召唤直线推进的雷击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Railbolt": {
+      "sourceName": "并联雷光",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "积蓄雷电的力量到极限， \r\n朝敌人同时发射多道强力雷击。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ShokeiLaser": {
+      "sourceName": "处刑雷射",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "锁定敌人后，连续射出超高速的雷射。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "BubbleShower": {
+      "sourceName": "毒雨",
+      "element": "Dark",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "使出浑身力量\r\n向各个方向喷洒毒球。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WaterBalloon": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "射击",
+      "power": 90,
+      "cooldown": 4,
+      "minRange": 100,
+      "maxRange": 3000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "IciclePierce": {
+      "sourceName": "冰霜连弹",
+      "element": "Ice",
+      "category": "射击",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 100,
+      "maxRange": 3000,
+      "description": "在空中生成复数个冰锥，\r\n瞄准敌人一齐射出。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DoubleIcicleThrow": {
+      "sourceName": "极寒双星",
+      "element": "Ice",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "做出两个巨大的冰块，\r\n瞄准敌人先后发射。\r\n撞击后对周围造成冲击。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "IceAge": {
+      "sourceName": "冰极冻域",
+      "element": "Ice",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 100,
+      "maxRange": 3000,
+      "description": "大范围的在敌人脚下生成冰柱穿刺。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RaidCutter": {
+      "sourceName": "连环风刃",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 5000,
+      "description": "瞄准敌人射出无数风刃。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WindEdge": {
+      "sourceName": "烈风切",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 1500,
+      "maxRange": 5000,
+      "description": "扇形射出锐利的风刃。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "FlareTwister": {
+      "sourceName": "炎龙舞",
+      "element": "Fire",
+      "category": "射击",
+      "power": 130,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "zh-Hans Text",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "Unique_Horus_PerfectStorm": {
+      "sourceName": "炎凰烈波",
+      "element": "Fire",
+      "category": "射击",
+      "power": 650,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "荷鲁斯的专用技能。\r\n卷起数个灼热的龙卷风，\r\n同时身缠烈焰，飞空向敌人突进。\r\n龙卷风最终将融合为巨大火龙卷。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlackGriffon_TackleLaser2": {
+      "sourceName": "神圣灾祸Ⅱ",
+      "element": "Dark",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "异构格里芬的专用技能。\r\n一边突进，一边从身体的圆环出射出无数的蓝色光束。\r\n光束会自动追踪敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MoonQueen_IceMoonBlade": {
+      "sourceName": "青月闪",
+      "element": "Normal",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "辉月伊的专用技能。 \r\n挥出蕴含月光力量的高速三连斩击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "IcicleLine": {
+      "sourceName": "冰锋之路",
+      "element": "Ice",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "召唤朝前方三个方向推进的冰柱",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Manticore_InfernoStrike": {
+      "sourceName": "火山獠牙",
+      "element": "Fire",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 1500,
+      "maxRange": 5000,
+      "description": "狱焰王及亚种的专用技能。\r\n毫不留情的气势汹汹扑向敌人，\r\n在扑击的地点引发火属性的爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderBird_ThunderStorm": {
+      "sourceName": "闪电俯冲",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 180,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 1500,
+      "description": "迅雷鸟的专用技能。\r\n先在敌人所在位置降下落雷。\r\n然后在空中突进的同时，于左右两侧召唤落雷。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LilyQueen_WindBarrier": {
+      "sourceName": "风之结界",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 60,
+      "cooldown": 4,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "▼独特的技能▼\r\n- 请设置技能解释 -",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlackMetalDragon_FirePunch": {
+      "sourceName": "魔龙焚炎",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "魔渊龙的专用技能。\r\n在向前方挥出两拳后，\r\n向下呼出龙属性的吐息。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassRabbitMan_GrassRoundKick": {
+      "sourceName": "回旋猛踢",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 1200,
+      "description": "踏春兔的专用技能。\r\n向前方跳起的同时高速回旋踢击，\r\n将周围一扫而净。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Yeti_SnowBall": {
+      "sourceName": "滚雪球",
+      "element": "Ice",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "白绒雪怪的专用技能。\r\n一边向前方突进一边滚动雪球，\r\n在雪球滚的足够大时投掷出去，使其炸裂。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Umihebi_WindingTackle": {
+      "sourceName": "断海覆潮",
+      "element": "Water",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "覆海龙的专用技能。\r\n起身咆哮，使用身缠浪涛的巨大身躯蛇形向敌人突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SoldierBee_NeedleLance": {
+      "sourceName": "针刺长矛",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "骑士蜂的专用技能。\r\n朝向敌人高速突刺。\r\n最后使出致命一击贯穿敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_RedArmorBird_TriplePeck": {
+      "sourceName": "燧火连击",
+      "element": "Fire",
+      "category": "近战",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 550,
+      "description": "燧火鸟的专用技能。\r\n飞向前方的同时，朝正前、右、左啄击，\r\n并通过点火引发小规模的爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDog_InazumaShorai": {
+      "sourceName": "召雷",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 100,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 1200,
+      "description": "霹雳犬的专用技能。\r\n在前方呼唤连续不断的雷击，\r\n在落下的雷电间高速突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GhostBeast_Tossin": {
+      "sourceName": "心灵冲刺",
+      "element": "Dark",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 1000,
+      "maxRange": 2500,
+      "description": "噬魂兽的专用技能。\r\n缓慢奔跑的同时，不断召唤摇曳的火球飞向敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BirdDragon_FireBreath": {
+      "sourceName": "炽焰掠空",
+      "element": "Fire",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "烽歌龙的专用技能。\r\n一边从口部喷出火焰一边前进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WhiteTiger_IceScratch": {
+      "sourceName": "暴雪爪",
+      "element": "Ice",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "冰棘兽的专用技能。\r\n在两次挥击后，使出浑身力气大幅挥动巨爪。\r\n每次挥动巨爪时，都会向前方扇形区域飞出冰柱。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkMechaDragon_SetFunnel": {
+      "sourceName": "唤星",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "杰诺多兰的专用技能。\r\n召唤4个有自动攻击能力的卫星型羽毛。\r\n羽毛在进行攻击时会自动追踪敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkMechaDragon_FunnelLaser": {
+      "sourceName": "欧米伽雷射",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 3500,
+      "description": "杰诺多兰的专用技能。\r\n从亚空间呼唤毁灭的光束不断进行横向垂直扫射，\r\n将视野范围内的一切燃烧殆尽。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkMechaDragon_ConvergentBeam": {
+      "sourceName": "星幽炮",
+      "element": "Dark",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "杰诺多兰的专用技能。\r\n集中充盈暗黑力量的能量，\r\n一口气以直线状放出。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkMechaDragon_BeamSlash": {
+      "sourceName": "光连斩",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "杰诺多兰的专用技能。\r\n在右手生成高功率的光剑，\r\n高速移动同时进行二连斩击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DarkMechaDragon_WarpComet": {
+      "sourceName": "苍穹落星",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "杰诺多兰的专用技能。\r\n以光速飞上高空，射出无数的流星弹。\r\n之后将自身化为彗星向地面突进，\r\n在撞击的地点引发大范围的爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BirdDragon_Ice_IceBreath": {
+      "sourceName": "寒霜掠空",
+      "element": "Ice",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "霜歌龙的专用技能。\r\n一边从口部呼出冷气一边前进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Umihebi_Fire_FireWindingTackle": {
+      "sourceName": "腾龙奔炎",
+      "element": "Fire",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "腾炎龙的专用技能。\r\n起身咆哮，使用身缠炽炎的巨大身躯蛇形向敌人突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PredatorWave": {
+      "sourceName": "捕食者激波",
+      "element": "Normal",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PredatorBeam": {
+      "sourceName": "捕食者光束",
+      "element": "Normal",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PredatorLockon": {
+      "sourceName": "捕食者锁定雷射",
+      "element": "Normal",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WhiteTiger_Ground_IronScratch": {
+      "sourceName": "碎岩爪",
+      "element": "Earth",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "金棘兽的专用技能。\r\n在两次挥击后，使出浑身力气大幅挥动巨爪。\r\n每次挥动巨爪时，都会向前方扇形区域飞出碎岩。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FengyunDeeper_Electric_ThunderTempest": {
+      "sourceName": "雷云之岚",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 550,
+      "maxRange": 2000,
+      "description": "雷隐鹿的专用技能。\r\n操控大气，身缠雷云向前猛冲。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Werewolf_Ice_SnowScratch": {
+      "sourceName": "吹雪爪击",
+      "element": "Ice",
+      "category": "近战",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 400,
+      "maxRange": 500,
+      "description": "霜镰魔的专用技能。\r\n向前一跃，迅速斩下两击。\r\n且每次斩击都充满了冰属性的力量。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Horus_Water_AquaStorm": {
+      "sourceName": "凤凰浪涛",
+      "element": "Water",
+      "category": "近战",
+      "power": 320,
+      "cooldown": 16,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "伊西斯的专用技能。\r\n扇起漩涡龙卷风后，\r\n化身为波涛，一边滑翔一边突袭敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_AmaterasuWolf_Dark_DarkCharge": {
+      "sourceName": "火阴山雷",
+      "element": "Dark",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 1000,
+      "maxRange": 3500,
+      "description": "幽焰狼的专用技能。\r\n带着缠绕全身的紫色火焰，气势汹汹地向前猛冲。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RockBeat": {
+      "sourceName": "震岩",
+      "element": "Earth",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "震动地面，\r\n并令巨大的岩石飞起。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Yeti_Grass_GrassBall": {
+      "sourceName": "滚草球",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "绿苔绒怪的专用技能。\r\n一边向前方突进一边滚动草球，\r\n在草球滚的足够大时投掷出去，使其炸裂。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SnowTigerBeastman_SnowImpact": {
+      "sourceName": "冰川碎击",
+      "element": "Ice",
+      "category": "近战",
+      "power": 650,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "霜牙王的专用技能。\r\n大声咆哮的同时高高跳起，\r\n落地后将双臂埋入地面，产生巨大的龟裂冰川。\r\n之后不断向地面积蓄力量，最终引发巨大的冰属性爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_PurpleSpider_SpiderRaid": {
+      "sourceName": "蜘蛛猛袭",
+      "element": "Dark",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "桃蛛娘的专用技能。\r\n吐出丝线缠绕住猎物。\r\n之后全速冲向猎物所在位置，\r\n打出三段攻击以使其毙命。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SnowTigerBeastman_TrampleSlash": {
+      "sourceName": "烈冻爪",
+      "element": "Ice",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 1200,
+      "description": "霜牙王的专用技能。\r\n踩踏地面，在前方产生断裂的冰川。\r\n之后一口气接近敌人，用右手将其撕裂。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MysteryMask_LifeSteal": {
+      "sourceName": "窃魂",
+      "element": "Dark",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "面惧的专用技能。\r\n突然出现在敌人附近并用双手将其束缚，\r\n并吸收受到束缚敌人的HP。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrimGirl_BrutalMachete": {
+      "sourceName": "怨念连击",
+      "element": "Dark",
+      "category": "近战",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "幽恋娜的专用技能。\r\n从原先位置瞬间移动的同时打出斩击。\r\n然后瞬移至目标头顶，\r\n用利刃刺穿猎物并产生暗属性能量波。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WhiteShieldDragon_ShieldTackle": {
+      "sourceName": "圣盾冲锋",
+      "element": "Dragon",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "艾基鲁迦的专用技能。\r\n在前方展开能够减轻各种伤害的能量盾的同时，\r\n将突进道路上的敌人碾碎。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlueThunderHorse_FlashDash": {
+      "sourceName": "风驰电掣",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "驭雷马的专用技能。\r\n以闪电般的速度移动，\r\n并将途径的所有存在都卷入。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WhiteDeer_HolyPillar": {
+      "sourceName": "神圣新星",
+      "element": "Normal",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "净世鹿的专用技能。\r\n在前方引发大范围的圣光爆炸后，\r\n边缓慢行走边在自身周围降下神圣之光。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NightBlueHorse_DeathStep": {
+      "sourceName": "致命舞步",
+      "element": "Dark",
+      "category": "近战",
+      "power": 550,
+      "cooldown": 24,
+      "minRange": 1200,
+      "maxRange": 3000,
+      "description": "夜冥驹的专用技能。\r\n用鬼魅般的步伐玩弄敌人，\r\n同时用锐利的角挥出斩击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GoldenHorse_StoneDash": {
+      "sourceName": "碎岩冲锋",
+      "element": "Earth",
+      "category": "近战",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "金驰兽的专用技能。\r\n在气势汹汹突进的同时，令碎岩向左右飞溅。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Funnel_RaijinDaughter_Water": {
+      "sourceName": "",
+      "element": "Dark",
+      "category": "射击",
+      "power": 30,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "BlueThunderHorse_PartnerSkill": {
+      "sourceName": "",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 30,
+      "cooldown": 55,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "SeaGush": {
+      "sourceName": "潮涌迸发",
+      "element": "Water",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人所在位置及其周围区域\r\n喷出大量水柱。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RipTide": {
+      "sourceName": "漩涡新星",
+      "element": "Water",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人四周掀起波浪并涌向敌人，\r\n最后在中心点爆炸，喷出高高的水柱。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "HydroSlicer": {
+      "sourceName": "水刀切割",
+      "element": "Water",
+      "category": "射击",
+      "power": 350,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "用压缩水流一扫前方。\r\n被扫过的区域会在片刻后喷出水柱。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "DiversionLaser": {
+      "sourceName": "分流水炮",
+      "element": "Water",
+      "category": "射击",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "向前方发射高压水流。\r\n片刻后，水流会向左右分岔。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "CrossWind": {
+      "sourceName": "十字风切",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "在敌人前方生成风刃，\r\n并对其发动十字斩击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "IceWall": {
+      "sourceName": "寒冰之壁",
+      "element": "Ice",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "从地面召唤出冰墙。\r\n冰墙会持续一段时间，\r\n并在承受一定伤害后碎裂。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_OctopursGirl_InkJet": {
+      "sourceName": "墨沫头槌",
+      "element": "Water",
+      "category": "射击",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "墨沫姬及亚种的专用技能。\r\n向前方释放烟雾遮蔽自身，\r\n从隐蔽状态中突然发动头槌，猛击敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_TentacleTurtle_HydroSpin": {
+      "sourceName": "漩涡回旋",
+      "element": "Water",
+      "category": "射击",
+      "power": 160,
+      "cooldown": 8,
+      "minRange": 1000,
+      "maxRange": 2000,
+      "description": "盔盔仔及亚种的专用技能。\r\n利用水流喷射推进力，\r\n一边高速旋转一边向敌人飞旋而去。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LeafMomonga_SomerSault": {
+      "sourceName": "叶返",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 500,
+      "maxRange": 1000,
+      "description": "达鼠泥的专用技能。\r\n短暂蓄力后高速撞击敌人，\r\n同时做出后空翻动作。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_IceNarwhal_JumpingHorn": {
+      "sourceName": "冰鲸跃",
+      "element": "Ice",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "凉晶鲸及亚种的专用技能。\r\n笔直突进后短暂潜伏，\r\n接着高高跃起进行攻击。\r\n跃起时会引发冰属性爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GhostAnglerfish_SweepBait": {
+      "sourceName": "提灯横扫",
+      "element": "Water",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "冥灯鱼的专用技能。\r\n使用头部长长的提灯横扫前方大范围目标。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_StuffedShark_HiddenWeapon": {
+      "sourceName": "午时已到",
+      "element": "Water",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "布偶鲨及亚种的专用技能。\r\n从口中取出两把水枪，\r\n左右轮流射出6发水弹。\r\n最后双枪合并，射出一发强力水弹。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "GravityShot": {
+      "sourceName": "暗能弹",
+      "element": "Dark",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "发射逐渐加速的黑暗能量弹",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ThunderSpear": {
+      "sourceName": "雷矛",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "向敌人发射高速直线飞行的雷枪。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "ReflectiveShuriken": {
+      "sourceName": "连锁叶刃",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "发射风刃，\r\n在击中敌人或树木时反弹并连续造成攻击，\r\n最多可反弹4次。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "HealingTree": {
+      "sourceName": "",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": true
+    },
+    "Unique_IceCrocodile_SpitAttack": {
+      "sourceName": "妙玉连珠",
+      "element": "Ice",
+      "category": "射击",
+      "power": 180,
+      "cooldown": 8,
+      "minRange": 500,
+      "maxRange": 2000,
+      "description": "肚肚鳄的专用技能。\r\n连续喷吐3颗体内尚未消化\r\n但已经冷却的手榴弹进行攻击。\r\n有时还会喷出更危险的东西……？",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_PhantasmalDeathray": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_PhantasmalEye": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 25,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_PhantasmalBolt": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_PhantasmalSphere": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 180,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Yakushima_EyeTossin": {
+      "sourceName": "凝视突击",
+      "element": "Dark",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 15,
+      "minRange": 1500,
+      "maxRange": 3000,
+      "description": "克苏鲁之眼的专用技能。\r\n多次朝敌人发起冲锋。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Yakushima_SummonServant": {
+      "sourceName": "召唤仆从",
+      "element": "Dark",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 10,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "克苏鲁之眼的专用技能。\r\n召唤4个仆从撞向敌人并造成伤害。仆从会在受到攻击或经过一定时间后消失。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GhostAnglerfish_Fire_SweepBait_Fire": {
+      "sourceName": "炽灯横扫",
+      "element": "Fire",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "炙灯鱼的专用技能。\r\n使用头部附着火焰的提灯横扫前方大范围目标。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_CaptainPenguin_Black_BodySlide_Electric": {
+      "sourceName": "王者闪击",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 500,
+      "maxRange": 3000,
+      "description": "闪丸王的专用技能。\r\n全身电流涌动，腹部着地滑行\r\n并用力撞向敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Plesiosaur_LongBreath": {
+      "sourceName": "花粉吐息",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "梁叶龙的专用技能。\r\n从修长的颈部缓缓释放出草属性的气息，\r\n逐渐向四周扩散。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_TropicalOstrich_DashKick": {
+      "sourceName": "冲锋踢",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "咕咕桑葩的专用技能。\r\n冲刺助跑后向敌人发动猛烈踢击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Yakushima_MouthTossin": {
+      "sourceName": "高速突击",
+      "element": "Dark",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 15,
+      "minRange": 1500,
+      "maxRange": 3000,
+      "description": "克苏鲁之眼的专用技能。\r\n以极高速度多次朝敌人发起冲锋。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_PhantasmalBolt": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_PhantasmalEye": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 10,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_PhantasmalSphere": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 90,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_PhantasmalDeathray": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_PoseidonOrca_TorrentLaser": {
+      "sourceName": "风暴潮",
+      "element": "Water",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "海皇鲸的专用技能。\r\n身体略微上浮并在口中凝聚水流。\r\n随后纵横挥扫出三股高压水流。\r\n被扫过的区域会出现裂缝并喷出水柱。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster001_SlimePress_Normal": {
+      "sourceName": "史莱姆重压（无）",
+      "element": "Normal",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "夜明史莱姆的专用技能。\r\n跳向敌人发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster001_SlimePress_Leaf": {
+      "sourceName": "史莱姆重压（草）",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "绿史莱姆的专用技能。\r\n跳向敌人发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster001_SlimePress_Water": {
+      "sourceName": "史莱姆重压（水）",
+      "element": "Water",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "蓝史莱姆的专用技能。\r\n跳向敌人发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster001_SlimePress_Fire": {
+      "sourceName": "史莱姆重压（火）",
+      "element": "Fire",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "红史莱姆的专用技能。\r\n跳向敌人发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster001_SlimePress_Dark": {
+      "sourceName": "史莱姆重压（暗）",
+      "element": "Dark",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "紫史莱姆的专用技能。\r\n跳向敌人发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster001_SlimePress_Rainbow": {
+      "sourceName": "史莱姆重压（彩虹）",
+      "element": "Normal",
+      "category": "近战",
+      "power": 100,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "彩虹史莱姆的专用技能。\r\n跳向敌人发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Small_DemonEyeCharge": {
+      "sourceName": "眼球突击",
+      "element": "Dark",
+      "category": "近战",
+      "power": 60,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 600,
+      "description": "恶魔眼的专用技能。\r\n朝敌人发起冲锋。撞到地面或墙壁时会反弹。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster002_SwordCharge": {
+      "sourceName": "剑舞冲锋",
+      "element": "Normal",
+      "category": "近战",
+      "power": 80,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 1200,
+      "description": "附魔剑的专用技能。\r\n朝敌人发动突刺攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaMonster003_BatCharge": {
+      "sourceName": "蝙蝠袭击",
+      "element": "Normal",
+      "category": "近战",
+      "power": 70,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "洞穴蝙蝠的专用技能。\r\n利用全身扑向敌人发起进攻。撞到地面或墙壁时会反弹。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BluePlatypus_Toboggan_Fire": {
+      "sourceName": "热浪滚滚",
+      "element": "Fire",
+      "category": "近战",
+      "power": 115,
+      "cooldown": 120,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PoseidonOrca_PartnerSkill": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "近战",
+      "power": 60,
+      "cooldown": 55,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "PoseidonOrca_PartnerSkill_SpearBullet": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "射击",
+      "power": 50,
+      "cooldown": 55,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Human_Rolling": {
+      "sourceName": "",
+      "element": "Normal",
+      "category": "近战",
+      "power": 0,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 0,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": true,
+      "disabled": false
+    },
+    "Weapon_Use": {
+      "sourceName": "使用武器",
+      "element": "Normal",
+      "category": "射击",
+      "power": 50,
+      "cooldown": 5,
+      "minRange": 1000,
+      "maxRange": 3000,
+      "description": "使用持有的武器进行攻击。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": true,
+      "disabled": false
+    },
+    "Unique_FlowerDinosaur_Electric_ThunderWhip": {
+      "sourceName": "雷龙摆尾",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "雷冠龙的专用技能。\r\n使用巨大的尾巴拍打前方地面，\r\n对直线范围造成雷击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingAlpaca_Ice_IcePress": {
+      "sourceName": "冰山压顶",
+      "element": "Ice",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "冰帝美露帕的专用技能。\r\n向上高高跳起后，\r\n用自身庞大的身躯及冰晶辗压敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Baphomet_Dark_DarkKite": {
+      "sourceName": "恶梦爪",
+      "element": "Dark",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 600,
+      "maxRange": 1200,
+      "description": "暗魔羊的专用技能。\r\n接近目标后跳起同时以左手暗爪向上挥击，\r\n再用右手暗爪迅速向下挥砍。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SakuraSaurus_Water_SplashTackle": {
+      "sourceName": "凌波铁山靠",
+      "element": "Water",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 300,
+      "description": "海誓龙的专用技能。\r\n侧身站立，然后向前猛撞敌人，\r\n溅起水花并将其击飞。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Deer_Ground_DirtyHorn": {
+      "sourceName": "泥角顶击",
+      "element": "Earth",
+      "category": "近战",
+      "power": 120,
+      "cooldown": 8,
+      "minRange": 550,
+      "maxRange": 2000,
+      "description": "祇岳鹿的专用技能。\r\n面向敌人冲刺，用尖角卷起泥土攻击敌人。\r\n如在骑乘时发动，可操控前进方向。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Gorilla_Ground_EarthPunch": {
+      "sourceName": "猩猩撼地击",
+      "element": "Earth",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "石掌猿的专用技能。\r\n猛击地面两次后高高跳起，\r\n再赏给对方汇聚大地之力的一拳。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_IceHorse_Dark_DarkBladeAttack": {
+      "sourceName": "幽夜之翼",
+      "element": "Dark",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "唤夜兽的专用技能。\r\n用暗能量包裹翅膀后，全力奔跑以双翼撕裂敌人。\r\n且暗能量最后会化为追踪弹攻击敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_2_PhantasmalDeathray": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 450,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_2_PhantasmalEye": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 25,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_2_PhantasmalBolt": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 80,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss002_2_PhantasmalSphere": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 180,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_2_PhantasmalBolt": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 40,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_2_PhantasmalEye": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 10,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_2_PhantasmalSphere": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 90,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_YakushimaBoss001_Green_2_PhantasmalDeathray": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 45,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Garm_BiteV2": {
+      "sourceName": "狂野双牙",
+      "element": "Normal",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 180,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDog_BiteV2": {
+      "sourceName": "狂雷双牙",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 180,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDog_Bite": {
+      "sourceName": "狂雷之牙",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 800,
+      "maxRange": 900,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GuardianDog_Bite": {
+      "sourceName": "狂野之牙",
+      "element": "Normal",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 250,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GuardianDog_BiteV2": {
+      "sourceName": "狂野双牙",
+      "element": "Normal",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 150,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GoldenHorse_Bite": {
+      "sourceName": "碎岩之牙",
+      "element": "Earth",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 1000,
+      "maxRange": 1100,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GoldenHorse_BiteV2": {
+      "sourceName": "碎岩双牙",
+      "element": "Earth",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 250,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_AmaterasuWolf_Bite": {
+      "sourceName": "狂炎之牙",
+      "element": "Fire",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 800,
+      "maxRange": 900,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_AmaterasuWolf_BiteV2": {
+      "sourceName": "狂炎双牙",
+      "element": "Fire",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 250,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_AmaterasuWolf_Dark_Bite": {
+      "sourceName": "暗影之牙",
+      "element": "Dark",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 800,
+      "maxRange": 900,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_AmaterasuWolf_Dark_BiteV2": {
+      "sourceName": "暗影双牙",
+      "element": "Dark",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 250,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlackPuppy_Bite": {
+      "sourceName": "暗影之牙",
+      "element": "Dark",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 250,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlackPuppy_BiteV2": {
+      "sourceName": "暗影双牙",
+      "element": "Dark",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 150,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_VolcanoDragon_VolcanicLaser": {
+      "sourceName": "岩浆吐息",
+      "element": "Fire",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "流焰龙的专用技能。\r\n从口中喷涌而出炽热光束，焚烧大地。\r\n灼热的地面会形成岩浆池，\r\n对碰到的敌人造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_VolcanoDragon_MagmaSpit": {
+      "sourceName": "熔岩喷溅",
+      "element": "Fire",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "流焰龙的专用技能。\r\n从口中吐出岩浆团进行攻击。\r\n在落点形成岩浆池，\r\n对碰到的敌人造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Sekhmet_SomersaultScratch": {
+      "sourceName": "空爪返",
+      "element": "Earth",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 100,
+      "description": "塞赫麦特的专用技能。\r\n抓挠敌人的同时向后翻跃，与敌人拉开距离。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Sekhmet_RollingScratch": {
+      "sourceName": "空翻爪袭",
+      "element": "Earth",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 400,
+      "maxRange": 3000,
+      "description": "塞赫麦特的专用技能。\r\n旋转突进，一口气拉近距离并抓挠敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NightBlueHorse_Tossin": {
+      "sourceName": "幽影疾驰",
+      "element": "Dark",
+      "category": "近战",
+      "power": 450,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "夜冥驹的专用技能。\r\n周身缠绕跃动的火焰，朝敌人冲锋。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlueThunderHorse_Tossin": {
+      "sourceName": "闪雷冲锋",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "驭雷马的专用技能。\r\n周身缠绕雷电，朝敌人高速猛冲。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LegendDeer_WarpPillarBurst": {
+      "sourceName": "光之雨",
+      "element": "Normal",
+      "category": "射击",
+      "power": 800,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 7500,
+      "description": "默世鹿的专用技能。\r\n一瞬间隐去身姿，然后以自身为中心在大范围召唤大量光柱落下。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LegendDeer_RadiantWingRush": {
+      "sourceName": "流光翼彩",
+      "element": "Normal",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "默世鹿的专用技能。\r\n向后方跳跃并在背后展开光翼，\r\n从空中向敌人发起突击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LegendDeer_BarrierRelease_Normal": {
+      "sourceName": "",
+      "element": "Normal",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 1,
+      "minRange": 500,
+      "maxRange": 8000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LegendDeer_BarrierRelease_Grass": {
+      "sourceName": "",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 220,
+      "cooldown": 1,
+      "minRange": 500,
+      "maxRange": 8000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LegendDeer_BarrierRelease_Water": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "近战",
+      "power": 220,
+      "cooldown": 1,
+      "minRange": 500,
+      "maxRange": 8000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LegendDeer_RadiantPurge": {
+      "sourceName": "",
+      "element": "Normal",
+      "category": "射击",
+      "power": 1250,
+      "cooldown": 1,
+      "minRange": 0,
+      "maxRange": 8000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "RadiantBarrage": {
+      "sourceName": "辉耀弹",
+      "element": "Normal",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "发射一个缓慢追踪敌人的光球。\r\n光球在接近目标时会分裂成无数光弹攻击敌人。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LegendDeer_RadiantPurge_Otomo": {
+      "sourceName": "神光尽灭",
+      "element": "Normal",
+      "category": "射击",
+      "power": 1250,
+      "cooldown": 100,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "默世鹿的专用技能。\r\n跃向空中，凝聚巨大的能量然后投向地面。\r\n煌煌天光，涤净尘世。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MonochromeQueen_BalletJump": {
+      "sourceName": "黑天鹅之舞",
+      "element": "Dark",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "墨罗娜的专用技能。\r\n向斜前方跃起，投掷黑色锋利的羽刃进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassGolem_ArmCannon": {
+      "sourceName": "根须大炮",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 200,
+      "maxRange": 5000,
+      "description": "双心岩傀的专用技能。\r\n从手臂发射草属性能量弹。\r\n能量弹落地后会化为根须，紧追敌人，并从其脚下破土贯穿。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassGolem_RocketPunch": {
+      "sourceName": "火箭飞拳",
+      "element": "Earth",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 1000,
+      "maxRange": 1500,
+      "description": "双心岩傀及亚种的专用技能。\r\n将左臂从本体分离，横扫敌人。\r\n随后再射出右臂。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_Maelstrom": {
+      "sourceName": "漩涡风暴",
+      "element": "Water",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 6000,
+      "description": "奥沧鲸的专用技能。\r\n在敌人周围生成漩涡。\r\n将敌人卷入并不断向中心收缩，\r\n最终爆裂，掀起水柱。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_HomingBubble": {
+      "sourceName": "泡沫之雨",
+      "element": "Water",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 6000,
+      "description": "奥沧鲸的专用技能。\r\n发射大量追踪泡泡。\r\n泡泡着地后会停留在原地。\r\n触碰或数秒后爆裂，对周围造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_AquaTornado": {
+      "sourceName": "风暴召唤",
+      "element": "Water",
+      "category": "射击",
+      "power": 800,
+      "cooldown": 40,
+      "minRange": 0,
+      "maxRange": 6000,
+      "description": "奥沧鲸的专用技能。\r\n腾空而起，召唤多个巨型龙卷风。\r\n龙卷风会缓慢追踪敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_TidalBore": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "射击",
+      "power": 1000,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 6000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Ronin_Iai_PartnerSkill": {
+      "sourceName": "居合斩",
+      "element": "Fire",
+      "category": "近战",
+      "power": 160,
+      "cooldown": 12,
+      "minRange": 1000,
+      "maxRange": 5000,
+      "description": "浪刃武士及亚种的专用技能。\r\n摆出迎战姿势后瞬间移动至敌人面前，\r\n并使出超高速的拔刀攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_WaveTackle": {
+      "sourceName": "潮涌袭浪",
+      "element": "Water",
+      "category": "近战",
+      "power": 400,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "奥沧鲸的专用技能。\r\n利用全身猛然撞击敌人，掀起波浪。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_Breaching": {
+      "sourceName": "巨鲸跃",
+      "element": "Water",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 6000,
+      "description": "奥沧鲸的专用技能。\r\n潜入水中，片刻后破水而出。\r\n借鲸跃之势，在周围掀起扩散的波纹。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_AquaBlade": {
+      "sourceName": "波涛万仞",
+      "element": "Water",
+      "category": "射击",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 0,
+      "maxRange": 6000,
+      "description": "奥沧鲸的专用技能。\r\n释放锋利的水刃，对敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ScorpionMan_Erectric_UpperThunder": {
+      "sourceName": "升雷拳",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "电针妖的专用技能。\r\n通过超导快速缩短和敌人的距离，\r\n狠狠的用钳子使出上勾拳。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NightBlueHorse_Neutral_AirStep": {
+      "sourceName": "皇家舞步",
+      "element": "Normal",
+      "category": "近战",
+      "power": 800,
+      "cooldown": 30,
+      "minRange": 1200,
+      "maxRange": 3000,
+      "description": "日耀驹的专用技能。\r\n以华丽步伐戏耍敌人，\r\n同时用锐利的角挥出斩击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_NightBlueHorse_Neutral_Tossin": {
+      "sourceName": "银影疾驰",
+      "element": "Normal",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "日耀驹的专用技能。\r\n周身缠绕炽烈火焰，朝敌人冲锋。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SamuraiDog_Bite": {
+      "sourceName": "碎岩之牙",
+      "element": "Earth",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 250,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SamuraiDog_BiteV2": {
+      "sourceName": "碎岩双牙",
+      "element": "Earth",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 150,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDog_Ice_KoriShorai": {
+      "sourceName": "召雪",
+      "element": "Ice",
+      "category": "近战",
+      "power": 300,
+      "cooldown": 16,
+      "minRange": 500,
+      "maxRange": 1200,
+      "description": "凛光犬的专用技能。\r\n在前方连续不断生成冰柱，\r\n并在冰柱之间高速突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Kirin_Ice_IceTackle": {
+      "sourceName": "疾风冰击",
+      "element": "Ice",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 1200,
+      "description": "凌角马的专用技能。\r\n在自己的周围凝聚冰柱，\r\n同时猛力冲向敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "CreepingBubble": {
+      "sourceName": "泡沫聚涌",
+      "element": "Water",
+      "category": "射击",
+      "power": 200,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "奥沧鲸的专用技能。\r\n在敌人周围生成大量泡泡，将其团团包围并发动攻击。",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDog_Ice_BiteV2": {
+      "sourceName": "寒冰双牙",
+      "element": "Ice",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 180,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDog_Ice_Bite": {
+      "sourceName": "寒冰之牙",
+      "element": "Ice",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 800,
+      "maxRange": 900,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "WindBurst": {
+      "sourceName": "翠耀罡风",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 1200,
+      "description": "以自身为中心掀起巨大的风暴漩涡，\r\n发动强力攻击。",
+      "exclusive": false,
+      "skillFruit": true,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_CuteMole_DiggingAttack": {
+      "sourceName": "掘地潜行",
+      "element": "Earth",
+      "category": "近战",
+      "power": 60,
+      "cooldown": 4,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "遁地鼠的专用技能。\r\n潜入地下，从脚下猛然窜出突袭敌人。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SamuraiDog_DashSlash": {
+      "sourceName": "汪汪连斩",
+      "element": "Earth",
+      "category": "近战",
+      "power": 90,
+      "cooldown": 4,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "宗铭丸的专用技能。\r\n全速奔跑的同时，用口中衔着的木棒斩击敌人。\r\n连续施展2段攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SnakeGirl_SnakeShot": {
+      "sourceName": "毒液漫射",
+      "element": "Dark",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 300,
+      "maxRange": 3000,
+      "description": "梅杜娜的专用技能。\r\n头部的蛇会吐出呈抛物线飞行的毒液球。\r\n毒液球落地便会化为沼泽，令接触沼泽者陷入中毒状态。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "中毒"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MummyPal_MummyAttack": {
+      "sourceName": "突袭木乃伊",
+      "element": "Dark",
+      "category": "近战",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 200,
+      "maxRange": 1000,
+      "description": "缚乃伊的专用技能。\r\n从手中伸长绷带，对敌人进行连续攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ClownRabbit_TrickShow": {
+      "sourceName": "好戏上演",
+      "element": "Fire",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "拉比耶尔的专用技能。\r\n制造2道幻影迷惑敌人，\r\n本体则从丝绸礼帽中放出炎鸟进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderDragonMan_GYM_Act": {
+      "sourceName": "",
+      "element": "Electricity",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_CubeTurtle_CubePress": {
+      "sourceName": "巨石压顶",
+      "element": "Earth",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "重岩龟的专用技能。\r\n高高跃起至空中，\r\n随即以压倒性的重量将敌人压垮。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_KingWhale_SuperTidalBore": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "射击",
+      "power": 1000,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "GrassGolem_PartnerSkill": {
+      "sourceName": "",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 0,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_SumoDog_SumoStomp": {
+      "sourceName": "四股踏",
+      "element": "Earth",
+      "category": "近战",
+      "power": 550,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 700,
+      "description": "力士獒的专用技能。\r\n高高抡起右后腿重踏地面，释放冲击波，\r\n对前方扇形范围造成攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_RockBeast_RockHorn": {
+      "sourceName": "岩角爆",
+      "element": "Earth",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "磐峰兽的专用技能。\r\n以角刨开地面并顺势上挑，\r\n朝敌人飞射岩石弹。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "泥泞"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_RockBeast_Ice_IceHorn": {
+      "sourceName": "冰角爆",
+      "element": "Ice",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 1500,
+      "description": "寒峰兽的专用技能。\r\n以角刨开地面并顺势上挑，\r\n朝敌人飞射雪块。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ElecPomeranian_Bite": {
+      "sourceName": "狂雷之牙",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 50,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 250,
+      "description": "快速地向敌人飞扑，咬住敌人进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ElecPomeranian_BiteV2": {
+      "sourceName": "狂雷双牙",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 40,
+      "cooldown": 2,
+      "minRange": 0,
+      "maxRange": 100,
+      "description": "快速连续向敌人进行啃咬攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LanternButler_LanternFlame": {
+      "sourceName": "提灯妖火",
+      "element": "Dark",
+      "category": "射击",
+      "power": 650,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "妖焰灯的专用技能。\r\n高举提灯，召唤出多个执念深重的怨灵，\r\n紧追敌人不放。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlueSkyDragon_Tossin": {
+      "sourceName": "水龙突进",
+      "element": "Water",
+      "category": "近战",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 600,
+      "maxRange": 2500,
+      "description": "霄龙的专用技能。\r\n周身缠绕水流，笔直地向前猛冲。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlueSkyDragon_SweepBreath": {
+      "sourceName": "苍龙炎",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 400,
+      "maxRange": 3500,
+      "description": "霄龙的专用技能。\r\n喷吐龙属性烈焰横扫四方，\r\n将周围尽数化为焦土。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlueSkyDragon_DrainStorm": {
+      "sourceName": "天变之涡",
+      "element": "Water",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 1000,
+      "description": "霄龙的专用技能。\r\n召唤直冲天际的巨大漩涡。\r\n吞噬周围的敌人，将其一网打尽。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_BlueSkyDragon_GYM_Act": {
+      "sourceName": "",
+      "element": "Water",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 0,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "潮湿"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LilyQueen_GYM_Act": {
+      "sourceName": "",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 60,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MoonQueen_GYM_Act": {
+      "sourceName": "",
+      "element": "Normal",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 300,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_RedFlowerBird_JumpKick": {
+      "sourceName": "落花踏",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 550,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "大红呱的专用技能。\r\n先轻柔地浮空，再以利爪重重砸向地面。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WingGolem_Fire_FlameCutter": {
+      "sourceName": "回旋炎锯",
+      "element": "Fire",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 3500,
+      "description": "丹烽的专用技能。\r\n大幅回旋身体投掷出背后的炎盘。\r\n炎盘将会以圆弧轨道状飞行。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_VolcanoDragon_Ice_IceLaser": {
+      "sourceName": "急冻吐息",
+      "element": "Ice",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "川霜龙的专用技能。\r\n从口中喷吐冻结光线，使大地结冰。\r\n冻结的地面会形成霜层，\r\n冻结碰到的敌人并对其造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_VolcanoDragon_Ice_IcicleSpit": {
+      "sourceName": "寒冰喷溅",
+      "element": "Ice",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "川霜龙的专用技能。\r\n从口中吐出冰块进行攻击。\r\n落地后会使地面冻结，并形成霜层，\r\n冻结碰到的敌人并对其造成伤害。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_CubeTurtle_Neutral_HolyPress": {
+      "sourceName": "圣石压顶",
+      "element": "Normal",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "净岩龟的专用技能。\r\n高高跃起至空中，将敌人压垮。\r\n随后扩散光芒，以光柱进行追击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassGolem_Dark_DarkArmCannon": {
+      "sourceName": "枯须大炮",
+      "element": "Dark",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 200,
+      "maxRange": 5000,
+      "description": "咒心岩傀的专用技能。\r\n从手臂发射暗属性能量弹。\r\n能量弹落地后会化为根须，紧追敌人，并从其脚下破土贯穿。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_PaldiumShot": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 400,
+      "cooldown": 5,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_PaldiumCannon": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_Supernova": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 1000,
+      "cooldown": 99,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_HaloBeam": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 750,
+      "cooldown": 20,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_PaldiumRain": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 500,
+      "cooldown": 5,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_LaserGliding": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 550,
+      "cooldown": 5,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_HaloCutter": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 600,
+      "cooldown": 10,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_PaldiumExplosion": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 800,
+      "cooldown": 60,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "GrassGolem_Dark_PartnerSkill": {
+      "sourceName": "",
+      "element": "Dark",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 0,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": false,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LilyQueen_LilyHealing_Boss": {
+      "sourceName": "",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 0,
+      "cooldown": 300,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ThunderBird_Ice_SnowStrom": {
+      "sourceName": "冰锥俯冲",
+      "element": "Ice",
+      "category": "近战",
+      "power": 600,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 1500,
+      "description": "疾霜鸟的专用技能。\r\n先从敌人脚下突起冰柱。\r\n然后在空中突进的同时，于左右两侧接连升起冰柱。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WhiteDeer_Dark_DarkPillar": {
+      "sourceName": "混沌新星",
+      "element": "Dark",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "织夜鹿的专用技能。\r\n在前方引发大范围的暗属性爆炸，\r\n随后边缓慢前行，边在自身周围降下暗之柱。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "黑暗"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Mothman_GiantSpore": {
+      "sourceName": "巨大孢子",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 4000,
+      "description": "暮尘蛾的专用技能。\r\n发射追踪敌人的巨大孢子。\r\n命中后爆炸，造成大范围爆炸冲击波。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_Mothman_SporeScatter": {
+      "sourceName": "孢子爆发",
+      "element": "Leaf",
+      "category": "射击",
+      "power": 800,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "暮尘蛾的专用技能。\r\n大范围散布爆炸孢子，\r\n并在一定时间后同时引爆。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_MoonQueen_GYM_Hard_Act": {
+      "sourceName": "",
+      "element": "Normal",
+      "category": "射击",
+      "power": 1,
+      "cooldown": 300,
+      "minRange": 0,
+      "maxRange": 5000,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FlowerPrince_PoisonGasTackle": {
+      "sourceName": "毒雾花滑",
+      "element": "Dark",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "夜蔓爵的专用技能。\r\n喷吐腐蚀雾的同时贴地滑行突进。\r\n雾气会在原地残留一段时间。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_FlowerPrince_PoisonGasDance": {
+      "sourceName": "毒雾之舞",
+      "element": "Dark",
+      "category": "射击",
+      "power": 800,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "夜蔓爵的专用技能。\r\n舞动的同时喷射腐蚀雾。\r\n雾气会在原地残留一段时间。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassMinotaur_BullRush": {
+      "sourceName": "狂牛奔袭",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 650,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "密林陶洛斯的专用技能。\r\n狂暴地激发力量，\r\n连续发动4次草属性突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassMinotaur_Ice_BullRush": {
+      "sourceName": "狂牛冰袭",
+      "element": "Ice",
+      "category": "近战",
+      "power": 650,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "冰峰陶洛斯的专用技能。\r\n狂暴地激发力量，\r\n连续发动4次冰属性突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_LotusDragon_LotusBloom": {
+      "sourceName": "怒放莲华",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "沁莲龙的专用技能。\r\n潜入地下隐匿身形。\r\n随后化作花苞现身地表，绽放时对大范围敌人发动攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GhostDragon_TailSlash": {
+      "sourceName": "曳尾斩",
+      "element": "Dragon",
+      "category": "近战",
+      "power": 550,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 3000,
+      "description": "灵曦龙的专用技能。\r\n高速逼近敌人，以尾巴进行斩击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GhostDragon_PhosphorousBeam": {
+      "sourceName": "火花射线",
+      "element": "Dragon",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 0,
+      "maxRange": 2500,
+      "description": "灵曦龙及亚种的专用技能。\r\n持续喷吐高温光线。\r\n最终在光线落点引发剧烈爆炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "灼烧"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassMinotaur_BullRush_Lower": {
+      "sourceName": "蛮牛奔袭",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "密林陶洛斯的专用技能。\r\n狂暴地激发力量，\r\n连续发动2次草属性突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_GrassMinotaur_Ice_BullRush_Lower": {
+      "sourceName": "蛮牛冰袭",
+      "element": "Ice",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 2000,
+      "description": "冰峰陶洛斯的专用技能。\r\n狂暴地激发力量，\r\n连续发动2次冰属性突进。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "冻结"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_WorldTreeDragon_BigBang": {
+      "sourceName": "",
+      "element": "None",
+      "category": "射击",
+      "power": 900,
+      "cooldown": 60,
+      "minRange": 0,
+      "maxRange": 9999,
+      "description": "",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_DomeArmorDragon_ExplosiveMissile": {
+      "sourceName": "轰天之翼",
+      "element": "Earth",
+      "category": "射击",
+      "power": 700,
+      "cooldown": 30,
+      "minRange": 500,
+      "maxRange": 4000,
+      "description": "磐甲龙的专用技能。\r\n从羽翼射出无数爆裂导弹，对敌人进行轰炸。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_PandaGirl_RapidKick": {
+      "sourceName": "连续回旋踢",
+      "element": "Leaf",
+      "category": "近战",
+      "power": 250,
+      "cooldown": 12,
+      "minRange": 0,
+      "maxRange": 800,
+      "description": "莉芳的专用技能。\r\n迅速连续施展回旋踢后，释放气功波进行攻击。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "缠绕"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    },
+    "Unique_ElecSnail_ShellCharge": {
+      "sourceName": "涡壳充电",
+      "element": "Electricity",
+      "category": "近战",
+      "power": 500,
+      "cooldown": 24,
+      "minRange": 0,
+      "maxRange": 500,
+      "description": "电涡蜗及亚种的专用技能。\r\n缩入壳中减伤并积蓄电能。\r\n充满后释放电流，对周围敌人造成伤害。\r\n放电后，短时间内自身雷属性技能攻击力提升。",
+      "exclusive": true,
+      "skillFruit": false,
+      "effects": [
+        "感电"
+      ],
+      "weaponDamage": false,
+      "disabled": false
+    }
+  }
+}
