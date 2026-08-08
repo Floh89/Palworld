@@ -23,14 +23,18 @@
       const matchesAnchor=!mentioned.length||mentioned.some(el=>anchorEls.has(el));
       if(!matchesAnchor)continue;
       if(/schwach|weak/.test(cond)&&mentioned.length&&!mentioned.some(bossWeakTo))continue;
-      let weight=/angriff|attack|schaden|damage/.test(metric)?2.4:1.25;
-      score+=Math.min(240,v*weight);
+      const weight=/angriff|attack|schaden|damage/.test(metric)?2.8:1.35;
+      score+=Math.min(280,v*weight);
       const label=e.metric||'Kampfbonus';reasons.push(`${label} ${v}${e.unit||''}`);
     }
-    const description=String(partner(p).description||'').toLowerCase();if(/aktiv kämpfenden pal|active pal/.test(description)&&/angriff|attack|schaden|damage/.test(description)&&score===0){score+=55;reasons.push('direkter Buff auf aktiven Pal')}
+    const description=String(partner(p).description||'').toLowerCase();
+    const activeTarget=/aktiv kämpfenden pal|aktiv kämpfender pal|active pal/.test(description);
+    const offensive=/angriff|attack|schaden|damage/.test(description);
+    const global=/global|allgemein|generell/.test(description)||pr.cls.includes('Globaler Pal-Support');
+    if(activeTarget&&offensive&&score===0){score+=global?220:150;reasons.push(global?'globaler Angriffsbuff auf aktiven Pal':'direkter Angriffsbuff auf aktiven Pal')}
     return{score,reasons:reasons.slice(0,2)};
   }
-  function supportSynergy(p,team){if(!team.length)return 0;const pr=supportProfile(p),anchor=team[0],anchorEls=new Set(anchor?.elements||[]),teamEls=new Set(team.flatMap(x=>x.elements||[]));let s=0;const targetsText=pr.effects.map(e=>String(e.target||'')).join(' ').toLowerCase();const generalPal=pr.cls.includes('Pal-Support')||pr.cls.includes('Globaler Pal-Support')||pr.sem.scope==='Team-Pals'||pr.sem.scope==='Spieler + Team'||/party pal|active pal|party pals|pal fighting|aktiv kämpfender pal|andere team-pals|spieler & pals/.test(`${pr.text} ${targetsText}`);const combat=pr.cls.includes('Kampf-Support')||/angriff|attack|schaden|damage|verteid|defen/.test(pr.text);const player=pr.cls.includes('Spieler-Support');const base=pr.cls.includes('Base-Support')||pr.sem.scope==='Base';const elementMatchesAnchor=[...pr.elements].filter(e=>anchorEls.has(e)).length;const elementMatchesTeam=[...pr.elements].filter(e=>teamEls.has(e)).length;
+  function supportSynergy(p,team){if(!team.length)return 0;const pr=supportProfile(p),anchor=team[0],anchorEls=new Set(anchor?.elements||[]),teamEls=new Set(team.flatMap(x=>x.elements||[]));let s=0;const targetsText=pr.effects.map(e=>String(e.target||'')).join(' ').toLowerCase();const generalPal=pr.cls.includes('Pal-Support')||pr.cls.includes('Globaler Pal-Support')||pr.sem.scope==='Team-Pals'||pr.sem.scope==='Spieler + Team'||/party pal|active pal|party pals|pal fighting|aktiv kämpfender pal|aktiv kämpfenden pal|andere team-pals|spieler & pals/.test(`${pr.text} ${targetsText}`);const combat=pr.cls.includes('Kampf-Support')||/angriff|attack|schaden|damage|verteid|defen/.test(pr.text);const player=pr.cls.includes('Spieler-Support');const base=pr.cls.includes('Base-Support')||pr.sem.scope==='Base';const elementMatchesAnchor=[...pr.elements].filter(e=>anchorEls.has(e)).length;const elementMatchesTeam=[...pr.elements].filter(e=>teamEls.has(e)).length;
     if(generalPal)s+=28;if(combat&&generalPal)s+=14;if(elementMatchesAnchor)s+=35*elementMatchesAnchor;if(elementMatchesTeam)s+=7*elementMatchesTeam;if(player&&bossType==='tower')s+=6;if(base&&bossType==='raid')s+=24;
     const direct=directAnchorBuff(p,anchor);s+=direct.score;
     const exact=(pr.sem.exactRankEffects||0);if(exact)s+=Math.min(12,exact*4);
@@ -39,7 +43,7 @@
   function duplicatePenalty(p){const n=bossTeam.filter(x=>x===uid(p)).length;if(!n)return 0;if(bossType==='tower')return n*12;return Math.max(0,n-5)*5}
   function baseScore(p){const a=Number(p.stats?.attack)||0,h=Number(p.stats?.hp)||0,d=Number(p.stats?.defense)||0;return a*.55+h*.18+d*.27}
   function scoreParts(p){const t=target(),tm=selectedPals(),em=mult(p.elements,t?.elements||[]),raw=baseScore(p)*em;let direct=raw,support=supportSynergy(p,tm);const hard=['Schwer','Ultra','Master'].includes(bossDifficulty);if(hard)direct+=(Number(p.stats?.hp)||0)*.08+(Number(p.stats?.defense)||0)*.12;
-    if(bossType==='tower'){if(tm.length)direct*=.48;support*=tm.length?2.0:1}else{const sem=partner(p).semantic,baseRelevant=(partner(p).clusters||[]).includes('Base-Support')||sem?.scope==='Base';if(tm.length)direct*=.88;if(!baseRelevant&&support<20)direct-=8;support*=.9}
+    if(bossType==='tower'){if(tm.length)direct*=.42;support*=tm.length?2.15:1}else{const sem=partner(p).semantic,baseRelevant=(partner(p).clusters||[]).includes('Base-Support')||sem?.scope==='Base';if(tm.length)direct*=.88;if(!baseRelevant&&support<20)direct-=8;support*=.9}
     if(bossStrategy==='Max DPS'){direct+=(Number(p.stats?.attack)||0)*.25;support*=.85}if(bossStrategy==='Sicher')direct+=(Number(p.stats?.hp)||0)*.16+(Number(p.stats?.defense)||0)*.18;if(bossStrategy==='Spieler-DPS'&&bossType==='tower'&&(partner(p).clusters||[]).includes('Spieler-Support'))support+=55;
     const penalty=duplicatePenalty(p);return{direct,support,penalty,total:direct+support-penalty};
   }
