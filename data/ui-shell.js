@@ -16,19 +16,16 @@
       <button class="future" disabled aria-label="Teams – noch nicht implementiert">${icon('teams')}<span>Teams</span><small>Später</small></button>
     </nav>`;
   };
+  const mountBottom=()=>{const root=document.querySelector('.shell.detail');if(!root||root.querySelector('.bottomnav'))return;root.insertAdjacentHTML('beforeend',bottomMarkup());root.querySelectorAll('.bottomnav [data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;renderMode()})};
   nav=function(){
     const showSub=paldexModes.has(mode);
     const sub=showSub?`<nav class="toolnav" aria-label="Paldex Werkzeuge">${subItems.map(([k,l])=>`<button data-mode="${k}" class="${mode===k?'active':''}">${l}${k==='compare'&&compare.length?` <b>${compare.length}</b>`:''}</button>`).join('')}</nav>`:'';
     return `${sub}${bottomMarkup()}`;
   };
   const baseDetail=detail;
-  detail=function(id){
-    baseDetail(id);
-    const root=document.querySelector('.shell.detail');
-    if(root&&!root.querySelector('.bottomnav')){
-      root.insertAdjacentHTML('beforeend',bottomMarkup());
-      root.querySelectorAll('.bottomnav [data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;renderMode()});
-    }
-  };
+  detail=function(id){baseDetail(id);mountBottom()};
+  const observer=new MutationObserver(()=>{if(document.querySelector('.shell.detail'))mountBottom()});observer.observe(app,{childList:true,subtree:true});
+  window.PALWERK_BOTTOM_NAV=bottomMarkup;
+  window.PALWERK_MOUNT_BOTTOM=mountBottom;
   window.PALWERK_UI_PHASE='UI-1';
 })();
