@@ -1,0 +1,5492 @@
+{
+  "meta": {
+    "gameVersion": "v1.0.0",
+    "generatedAt": "2026-08-08T14:53:34.966Z",
+    "source": "Palworld DT_PalDropItem-derived dataset",
+    "count": 287,
+    "rawDropCharacters": 1044
+  },
+  "byId": {
+    "1": {
+      "sourcePalId": "Quest_Farmer03_SheepBall",
+      "items": [
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "Meat_SheepBall",
+          "name": "棉悠悠的羊肉",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "2": {
+      "sourcePalId": "Quest_Farmer03_PinkCat",
+      "items": [
+        {
+          "itemId": "Berries",
+          "name": "红色野莓",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "3": {
+      "sourcePalId": "ChickenPal",
+      "items": [
+        {
+          "itemId": "Egg",
+          "name": "蛋",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Meat_ChickenPal",
+          "name": "皮皮鸡的鸡肉",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "4": {
+      "sourcePalId": "Carbunclo",
+      "items": [
+        {
+          "itemId": "WheatSeeds",
+          "name": "小麦种子",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Herbs",
+          "name": "低品质药品",
+          "chance": 20,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "5": {
+      "sourcePalId": "BluePlatypus",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "6": {
+      "sourcePalId": "CuteFox",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "7": {
+      "sourcePalId": "FlyingManta",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "8": {
+      "sourcePalId": "WoolFox",
+      "items": [
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "9": {
+      "sourcePalId": "KendoFrog",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Cloth",
+          "name": "布",
+          "chance": 25,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "10": {
+      "sourcePalId": "LeafMomonga",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "WheatSeeds",
+          "name": "小麦种子",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "11": {
+      "sourcePalId": "Ganesha",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "12": {
+      "sourcePalId": "PlantSlime_Flower",
+      "items": [
+        {
+          "itemId": "BerrySeeds",
+          "name": "野莓种子",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "itemId": "PalItem_PlantSlime",
+          "name": "叶泥泥的叶子",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "13": {
+      "sourcePalId": "SamuraiDog",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "14": {
+      "sourcePalId": "CloverFairy",
+      "items": [
+        {
+          "itemId": "BerrySeeds",
+          "name": "野莓种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "15": {
+      "sourcePalId": "Hedgehog",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "16": {
+      "sourcePalId": "NegativeKoala",
+      "items": [
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "17": {
+      "sourcePalId": "Penguin",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "18": {
+      "sourcePalId": "CaptainPenguin",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalItem_CaptainPenguin",
+          "name": "企丸王的羽饰",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "19": {
+      "sourcePalId": "WizardOwl",
+      "items": [
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        },
+        {
+          "itemId": "TechnologyBook_G1",
+          "name": "高等技术书",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "20": {
+      "sourcePalId": "Alpaca",
+      "items": [
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 2,
+          "max": 5
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "21": {
+      "sourcePalId": "KingAlpaca",
+      "items": [
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 5,
+          "max": 5
+        }
+      ]
+    },
+    "22": {
+      "sourcePalId": "DreamDemon",
+      "items": [
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "23": {
+      "sourcePalId": "Monkey",
+      "items": [
+        {
+          "itemId": "Mushroom",
+          "name": "蘑菇",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "24": {
+      "sourcePalId": "NightFox",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 40,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "25": {
+      "sourcePalId": "LavaGirl",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "26": {
+      "sourcePalId": "FlameBambi",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "27": {
+      "sourcePalId": "Bastet",
+      "items": [
+        {
+          "itemId": "Money",
+          "name": "金币",
+          "chance": 50,
+          "min": 100,
+          "max": 200
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "28": {
+      "sourcePalId": "Boar",
+      "items": [
+        {
+          "itemId": "Meat_Boar",
+          "name": "草莽猪的猪肉",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "29": {
+      "sourcePalId": "Kitsunebi",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "30": {
+      "sourcePalId": "NegativeOctopus",
+      "items": [
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        },
+        {
+          "itemId": "PalItem_NegativeOctopus",
+          "name": "勾魂鱿的触手",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "31": {
+      "sourcePalId": "CuteMole",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "32": {
+      "sourcePalId": "Deer",
+      "items": [
+        {
+          "itemId": "Meat_Deer",
+          "name": "紫霞鹿的鹿肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "33": {
+      "sourcePalId": "Garm",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Ruby",
+          "name": "红宝石",
+          "chance": 3,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Money",
+          "name": "金币",
+          "chance": 3,
+          "min": 10,
+          "max": 20
+        }
+      ]
+    },
+    "34": {
+      "sourcePalId": "BerryGoat",
+      "items": [
+        {
+          "itemId": "Meat_BerryGoat",
+          "name": "灌木羊的香草肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "Berries",
+          "name": "红色野莓",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "35": {
+      "sourcePalId": "MopBaby",
+      "items": [
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_MopBaby",
+          "name": "毛掸儿的棉毛",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "36": {
+      "sourcePalId": "MopKing",
+      "items": [
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 3,
+          "max": 5
+        }
+      ]
+    },
+    "37": {
+      "sourcePalId": "TentacleTurtle",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "38": {
+      "sourcePalId": "WindChimes",
+      "items": [
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        },
+        {
+          "itemId": "WheatSeeds",
+          "name": "小麦种子",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "39": {
+      "sourcePalId": "SweetsSheep",
+      "items": [
+        {
+          "itemId": "Sweet",
+          "name": "棉花糖",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "40": {
+      "sourcePalId": "CowPal",
+      "items": [
+        {
+          "itemId": "Meat_CowPal",
+          "name": "波霸牛的牛肉",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Milk",
+          "name": "牛奶",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "41": {
+      "sourcePalId": "BlueDragon",
+      "items": [
+        {
+          "itemId": "Cloth",
+          "name": "布",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "42": {
+      "sourcePalId": "ElecCat",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "43": {
+      "sourcePalId": "Kelpie",
+      "items": [
+        {
+          "itemId": "Meat_Kelpie",
+          "name": "水灵儿的鱼肉",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "44": {
+      "sourcePalId": "PinkRabbit",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_PinkRabbit",
+          "name": "姬小兔的发带",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "BerrySeeds",
+          "name": "野莓种子",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "45": {
+      "sourcePalId": "JellyfishFairy",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Meat_JellyfishFairy",
+          "name": "海月仙的水母伞",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "46": {
+      "sourcePalId": "JellyfishGhost",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Meat_JellyfishGhost",
+          "name": "海月灵的水母伞",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "47": {
+      "sourcePalId": "ClioneTwins",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "48": {
+      "sourcePalId": "OctopusGirl",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Meat_OctopusGirl",
+          "name": "墨沫姬的章鱼足",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "49": {
+      "sourcePalId": "Eagle",
+      "items": [
+        {
+          "itemId": "Meat_Eagle",
+          "name": "天擒鸟的鸟肉",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "50": {
+      "sourcePalId": "GhostBlackCat",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "51": {
+      "sourcePalId": "HawkBird",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    "52": {
+      "sourcePalId": "CatBat",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "53": {
+      "sourcePalId": "ColorfulBird",
+      "items": [
+        {
+          "itemId": "Gunpowder2",
+          "name": "火药",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_ColorfulBird",
+          "name": "炸蛋鸟的羽毛",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "54": {
+      "sourcePalId": "Kirin",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "55": {
+      "sourcePalId": "SharkKid",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "56": {
+      "sourcePalId": "Werewolf",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "57": {
+      "sourcePalId": "DarkCrow",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "58": {
+      "sourcePalId": "FlameBuffalo",
+      "items": [
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "59": {
+      "sourcePalId": "FluffyBird",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "60": {
+      "sourcePalId": "LittleBriarRose",
+      "items": [
+        {
+          "itemId": "TomatoSeeds",
+          "name": "番茄种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "61": {
+      "sourcePalId": "CuteButterfly",
+      "items": [
+        {
+          "itemId": "Honey",
+          "name": "蜂蜜",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "LettuceSeeds",
+          "name": "生菜种子",
+          "chance": 75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "TomatoSeeds",
+          "name": "番茄种子",
+          "chance": 75,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "62": {
+      "sourcePalId": "ElecPomeranian",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "63": {
+      "sourcePalId": "FairyDragon",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "64": {
+      "sourcePalId": "BirdDragon",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Ruby",
+          "name": "红宝石",
+          "chance": 1,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Money",
+          "name": "金币",
+          "chance": 10,
+          "min": 10,
+          "max": 40
+        }
+      ]
+    },
+    "65": {
+      "sourcePalId": "CatVampire",
+      "items": [
+        {
+          "itemId": "Cloth",
+          "name": "布",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 3,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "66": {
+      "sourcePalId": "VioletFairy",
+      "items": [
+        {
+          "itemId": "Herbs",
+          "name": "低品质药品",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "TomatoSeeds",
+          "name": "番茄种子",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "OnionSeeds",
+          "name": "洋葱种子",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "67": {
+      "sourcePalId": "SoldierBee",
+      "items": [
+        {
+          "itemId": "Honey",
+          "name": "蜂蜜",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "68": {
+      "sourcePalId": "QueenBee",
+      "items": [
+        {
+          "itemId": "Honey",
+          "name": "蜂蜜",
+          "chance": 100,
+          "min": 5,
+          "max": 5
+        },
+        {
+          "itemId": "Spear_QueenBee",
+          "name": "女皇蜂之杖",
+          "chance": 3,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "69": {
+      "sourcePalId": "PinkLizard",
+      "items": [
+        {
+          "itemId": "Mushroom",
+          "name": "蘑菇",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        },
+        {
+          "itemId": "Cake",
+          "name": "蛋糕",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Opium",
+          "name": "可疑果汁",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Narcotic",
+          "name": "怪异果汁",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "StatusPointResetSan",
+          "name": "消除记忆药",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "70": {
+      "sourcePalId": "NaughtyCat",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    "71": {
+      "sourcePalId": "PurpleSpider",
+      "items": [
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 2,
+          "max": 5
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 5
+        }
+      ]
+    },
+    "72": {
+      "sourcePalId": "IceSeal",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    "73": {
+      "sourcePalId": "LizardMan_Oilrig",
+      "items": [
+        {
+          "itemId": "TreasureBoxKey01",
+          "name": "铜钥匙",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "TreasureBoxKey02",
+          "name": "银钥匙",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_LizardMan",
+          "name": "朋克蜥的头冠",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "74": {
+      "sourcePalId": "Gorilla",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "75": {
+      "sourcePalId": "Serpent",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "76": {
+      "sourcePalId": "RobinHood",
+      "items": [
+        {
+          "itemId": "PotatoSeeds",
+          "name": "土豆种薯",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Arrow",
+          "name": "箭",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "77": {
+      "sourcePalId": "FlowerRabbit",
+      "items": [
+        {
+          "itemId": "Herbs",
+          "name": "低品质药品",
+          "chance": 20,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "LettuceSeeds",
+          "name": "生菜种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "78": {
+      "sourcePalId": "FoxMage",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "TechnologyBook_G1",
+          "name": "高等技术书",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "79": {
+      "sourcePalId": "CatMage",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalItem_CatMage",
+          "name": "暗巫猫的体毛",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "TechnologyBook_G1",
+          "name": "高等技术书",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "80": {
+      "sourcePalId": "HadesBird_Oilrig",
+      "items": [
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 3,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "81": {
+      "sourcePalId": "GrassMinotaur",
+      "items": [
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "82": {
+      "sourcePalId": "Mutant",
+      "items": [
+        {
+          "itemId": "Pal_crystal_S",
+          "name": "帕鲁矿碎块",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "83": {
+      "sourcePalId": "FengyunDeeper",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "84": {
+      "sourcePalId": "FlowerDinosaur",
+      "items": [
+        {
+          "itemId": "TomatoSeeds",
+          "name": "番茄种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "LettuceSeeds",
+          "name": "生菜种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "85": {
+      "sourcePalId": "Ronin",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "CopperIngot",
+          "name": "金属锭",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "86": {
+      "sourcePalId": "IceCrocodile",
+      "items": [
+        {
+          "itemId": "Meat_IceCrocodile",
+          "name": "肚肚鳄的鳄鱼肉",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "87": {
+      "sourcePalId": "GrassMammoth",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        },
+        {
+          "itemId": "Meat_GrassMammoth",
+          "name": "森猛犸的巨兽肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "88": {
+      "sourcePalId": "StuffedShark",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "89": {
+      "sourcePalId": "FlowerDoll",
+      "items": [
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PotatoSeeds",
+          "name": "土豆种薯",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "90": {
+      "sourcePalId": "PandaGirl",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "91": {
+      "sourcePalId": "Baphomet",
+      "items": [
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "92": {
+      "sourcePalId": "RaijinDaughter",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_RaijinDaughter",
+          "name": "雷鸣童子的云朵",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "93": {
+      "sourcePalId": "FireKirin",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "94": {
+      "sourcePalId": "LazyDragon",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 4
+        },
+        {
+          "itemId": "Ruby",
+          "name": "红宝石",
+          "chance": 5,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "95": {
+      "sourcePalId": "IceFox",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "96": {
+      "sourcePalId": "ThunderBird",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "97": {
+      "sourcePalId": "GhostAnglerfish",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "98": {
+      "sourcePalId": "ThunderDog",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "99": {
+      "sourcePalId": "DarkScorpion",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        }
+      ]
+    },
+    "100": {
+      "sourcePalId": "CactusDoll",
+      "items": [
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "101": {
+      "sourcePalId": "IceDeer",
+      "items": [
+        {
+          "itemId": "Meat_IceDeer",
+          "name": "严冬鹿的鹿肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "102": {
+      "sourcePalId": "GrassPanda",
+      "items": [
+        {
+          "itemId": "Wood_Fine",
+          "name": "硬木材",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "CarrotSeeds",
+          "name": "胡萝卜种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "103": {
+      "sourcePalId": "WeaselDragon",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "104": {
+      "sourcePalId": "RedArmorBird",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 5,
+          "max": 7
+        }
+      ]
+    },
+    "105": {
+      "sourcePalId": "VolcanoDragon",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "106": {
+      "sourcePalId": "TropicalOstrich",
+      "items": [
+        {
+          "itemId": "Wood_Fine",
+          "name": "硬木材",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        },
+        {
+          "itemId": "OnionSeeds",
+          "name": "洋葱种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "CarrotSeeds",
+          "name": "胡萝卜种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "108": {
+      "sourcePalId": "SakuraSaurus",
+      "items": [
+        {
+          "itemId": "Meat_SakuraSaurus",
+          "name": "连理龙的恐龙肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "OnionSeeds",
+          "name": "洋葱种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "109": {
+      "sourcePalId": "LazyCatfish",
+      "items": [
+        {
+          "itemId": "Meat_LazyCatfish",
+          "name": "趴趴鲶的鱼肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "110": {
+      "sourcePalId": "Plesiosaur",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Berries",
+          "name": "红色野莓",
+          "chance": 60,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "LettuceSeeds",
+          "name": "生菜种子",
+          "chance": 50,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "TomatoSeeds",
+          "name": "番茄种子",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "111": {
+      "sourcePalId": "AmaterasuWolf",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "112": {
+      "sourcePalId": "Manticore",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 3,
+          "max": 5
+        }
+      ]
+    },
+    "113": {
+      "sourcePalId": "HerculesBeetle",
+      "items": [
+        {
+          "itemId": "Honey",
+          "name": "蜂蜜",
+          "chance": 100,
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    "114": {
+      "sourcePalId": "SnowPeafowl",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "115": {
+      "sourcePalId": "DarkFlameFox",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "116": {
+      "sourcePalId": "WhiteMoth",
+      "items": [
+        {
+          "itemId": "Cloth2",
+          "name": "优质的布",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "117": {
+      "sourcePalId": "GhostBeast",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 15,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "CrudeOil",
+          "name": "原油",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "118": {
+      "sourcePalId": "MushroomDragon",
+      "items": [
+        {
+          "itemId": "Mushroom",
+          "name": "蘑菇",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Berries",
+          "name": "红色野莓",
+          "chance": 60,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "119": {
+      "sourcePalId": "IceWitch",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "120": {
+      "sourcePalId": "MummyPal",
+      "items": [
+        {
+          "itemId": "Cloth",
+          "name": "布",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "121": {
+      "sourcePalId": "Umihebi",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "122": {
+      "sourcePalId": "Suzaku",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        }
+      ]
+    },
+    "123": {
+      "sourcePalId": "FeatherOstrich",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "124": {
+      "sourcePalId": "SkyDragon",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 3,
+          "max": 3
+        }
+      ]
+    },
+    "125": {
+      "sourcePalId": "LeafPrincess",
+      "items": [
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Berries",
+          "name": "红色野莓",
+          "chance": 60,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "126": {
+      "sourcePalId": "SmallArmadillo",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 60,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "CrudeOil",
+          "name": "原油",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "127": {
+      "sourcePalId": "GuardianDog",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "128": {
+      "sourcePalId": "SwordCutlassfish",
+      "items": [
+        {
+          "itemId": "Meat_SwordCutlassFish",
+          "name": "鞘刀鱼排",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "129": {
+      "sourcePalId": "VolcanicMonster",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 5,
+          "max": 7
+        }
+      ]
+    },
+    "130": {
+      "sourcePalId": "NightBlueHorse",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "131": {
+      "sourcePalId": "RockBeast",
+      "items": [
+        {
+          "itemId": "CopperOre",
+          "name": "金属矿石",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "Coal",
+          "name": "石炭",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "Sulfur",
+          "name": "硫磺",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        }
+      ]
+    },
+    "132": {
+      "sourcePalId": "WhiteTiger",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    "133": {
+      "sourcePalId": "SmallYeti",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "134": {
+      "sourcePalId": "Yeti",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 20,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "135": {
+      "sourcePalId": "CandleGhost",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "CrudeOil",
+          "name": "原油",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "136": {
+      "sourcePalId": "VenusFlytrap",
+      "items": [
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "137": {
+      "sourcePalId": "KingBahamut",
+      "items": [
+        {
+          "itemId": "Coal",
+          "name": "石炭",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        }
+      ]
+    },
+    "138": {
+      "sourcePalId": "GrassGolem",
+      "items": [
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 3,
+          "max": 5
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "139": {
+      "sourcePalId": "Anubis",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 3,
+          "max": 5
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "TechnologyBook_G2",
+          "name": "革新技术书",
+          "chance": 5,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "140": {
+      "sourcePalId": "Sekhmet",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "141": {
+      "sourcePalId": "ScorpionMan",
+      "items": [
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        }
+      ]
+    },
+    "142": {
+      "sourcePalId": "CubeTurtle",
+      "items": [
+        {
+          "itemId": "Ruby",
+          "name": "红宝石",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "143": {
+      "sourcePalId": "BadCatgirl",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "144": {
+      "sourcePalId": "MimicDog",
+      "items": [
+        {
+          "itemId": "Money",
+          "name": "金币",
+          "chance": 100,
+          "min": 1000,
+          "max": 2000
+        },
+        {
+          "itemId": "DogCoin",
+          "name": "汪汪币",
+          "chance": 100,
+          "min": 14,
+          "max": 21
+        },
+        {
+          "itemId": "ExpBoost_04",
+          "name": "修炼之书（特大）",
+          "chance": 20,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "145": {
+      "sourcePalId": "DarkAlien_Oilrig",
+      "items": [
+        {
+          "itemId": "MeteorDrop",
+          "name": "陨石碎片",
+          "chance": 100,
+          "min": 3,
+          "max": 10
+        }
+      ]
+    },
+    "146": {
+      "sourcePalId": "WhiteAlienDragon",
+      "items": [
+        {
+          "itemId": "MeteorDrop",
+          "name": "陨石碎片",
+          "chance": 100,
+          "min": 5,
+          "max": 12
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 3,
+          "max": 5
+        }
+      ]
+    },
+    "147": {
+      "sourcePalId": "BlueberryFairy",
+      "items": [
+        {
+          "itemId": "Herbs",
+          "name": "低品质药品",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "CarrotSeeds",
+          "name": "胡萝卜种子",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "148": {
+      "sourcePalId": "GhostRabbit",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "149": {
+      "sourcePalId": "BlackPuppy",
+      "items": [
+        {
+          "itemId": "Chromium",
+          "name": "铬铁矿",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "150": {
+      "sourcePalId": "MysteryMask",
+      "items": [
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "151": {
+      "sourcePalId": "IceNarwhal",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "ManganeseOre",
+          "name": "珊瑚矿石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "152": {
+      "sourcePalId": "GrassRabbitMan",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "153": {
+      "sourcePalId": "GrimGirl",
+      "items": [
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "154": {
+      "sourcePalId": "GoldenHorse",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "155": {
+      "sourcePalId": "SifuDog",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "156": {
+      "sourcePalId": "SumoDog",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "157": {
+      "sourcePalId": "WhiteDeer",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "RainbowCrystal",
+          "name": "六棱晶矿",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "158": {
+      "sourcePalId": "BlackMetalDragon",
+      "items": [
+        {
+          "itemId": "Plastic",
+          "name": "塑钢",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "159": {
+      "sourcePalId": "WingGolem_Oilrig",
+      "items": [
+        {
+          "itemId": "CopperOre",
+          "name": "金属矿石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "160": {
+      "sourcePalId": "WhiteShieldDragon",
+      "items": [
+        {
+          "itemId": "Chromium",
+          "name": "铬铁矿",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "161": {
+      "sourcePalId": "BlueThunderHorse",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "162": {
+      "sourcePalId": "LongCat",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "163": {
+      "sourcePalId": "ElecSnail",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "164": {
+      "sourcePalId": "DandelionGirl",
+      "items": [
+        {
+          "itemId": "WheatSeeds",
+          "name": "小麦种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "165": {
+      "sourcePalId": "BrownRabbit",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "166": {
+      "sourcePalId": "HoodGhost",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "167": {
+      "sourcePalId": "ElecLizard",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "168": {
+      "sourcePalId": "OniGhostGirl",
+      "items": [
+        {
+          "itemId": "Cloth",
+          "name": "布",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "169": {
+      "sourcePalId": "KingSunfish",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "170": {
+      "sourcePalId": "SleeveRabbit",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "171": {
+      "sourcePalId": "GhostDragon",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 5,
+          "max": 6
+        }
+      ]
+    },
+    "172": {
+      "sourcePalId": "ThunderFluffyBird",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "173": {
+      "sourcePalId": "RedFlowerBird",
+      "items": [
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "174": {
+      "sourcePalId": "FoxExorcist",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 3,
+          "max": 4
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    "175": {
+      "sourcePalId": "LotusDragon",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "176": {
+      "sourcePalId": "ClownRabbit",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "177": {
+      "sourcePalId": "ThiefBird",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 3,
+          "max": 4
+        },
+        {
+          "itemId": "Ruby",
+          "name": "红宝石",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "178": {
+      "sourcePalId": "SnakeGirl",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "179": {
+      "sourcePalId": "MushroomLady",
+      "items": [
+        {
+          "itemId": "Mushroom",
+          "name": "蘑菇",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PoisonMushroom",
+          "name": "不可思议的蘑菇",
+          "chance": 50,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "180": {
+      "sourcePalId": "LanternButler",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "181": {
+      "sourcePalId": "MoonChild",
+      "items": [
+        {
+          "itemId": "NightStone",
+          "name": "夜星砂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 100,
+          "min": 3,
+          "max": 5
+        }
+      ]
+    },
+    "182": {
+      "sourcePalId": "MonochromeQueen",
+      "items": [
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Potion_High",
+          "name": "高品质恢复药",
+          "chance": 50,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "183": {
+      "sourcePalId": "KabukiMan",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "184": {
+      "sourcePalId": "DomeArmorDragon",
+      "items": [
+        {
+          "itemId": "Thermal_Core",
+          "name": "超高热核心",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone4",
+          "name": "究极帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "185": {
+      "sourcePalId": "ElecPanda",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "186": {
+      "sourcePalId": "LilyQueen",
+      "items": [
+        {
+          "itemId": "Potion_High",
+          "name": "高品质恢复药",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "TechnologyBook_G2",
+          "name": "革新技术书",
+          "chance": 10,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "187": {
+      "sourcePalId": "ThunderDragonMan",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "188": {
+      "sourcePalId": "Horus_Oilrig",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 4
+        }
+      ]
+    },
+    "189": {
+      "sourcePalId": "BlackGriffon",
+      "items": [
+        {
+          "itemId": "Plastic",
+          "name": "塑钢",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "CarbonFiber",
+          "name": "碳纤维",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "TechnologyBook_G2",
+          "name": "革新技术书",
+          "chance": 10,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "190": {
+      "sourcePalId": "MoonQueen",
+      "items": [
+        {
+          "itemId": "Cloth2",
+          "name": "优质的布",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Sapphire",
+          "name": "蓝宝石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "191": {
+      "sourcePalId": "SnowTigerBeastman",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 5
+        }
+      ]
+    },
+    "192": {
+      "sourcePalId": "BlueSkyDragon",
+      "items": [
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "193": {
+      "sourcePalId": "Mothman",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone4",
+          "name": "究极帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "AncientParts2",
+          "name": "古代文明核心",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "194": {
+      "sourcePalId": "FlowerPrince",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone4",
+          "name": "究极帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "AncientParts2",
+          "name": "古代文明核心",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        }
+      ]
+    },
+    "195": {
+      "sourcePalId": "NightLady",
+      "items": [
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "196": {
+      "sourcePalId": "DarkMechaDragon",
+      "items": [
+        {
+          "itemId": "MeteorDrop",
+          "name": "陨石碎片",
+          "chance": 100,
+          "min": 7,
+          "max": 15
+        }
+      ]
+    },
+    "197": {
+      "sourcePalId": "LegendDeer",
+      "items": [
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 30,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "198": {
+      "sourcePalId": "SaintCentaur",
+      "items": [
+        {
+          "itemId": "StainlessSteel",
+          "name": "六棱晶锭",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "Diamond",
+          "name": "钻石",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "199": {
+      "sourcePalId": "BlackCentaur",
+      "items": [
+        {
+          "itemId": "StainlessSteel",
+          "name": "六棱晶锭",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "Diamond",
+          "name": "钻石",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "200": {
+      "sourcePalId": "IceHorse",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "Diamond",
+          "name": "钻石",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "201": {
+      "sourcePalId": "PoseidonOrca",
+      "items": [
+        {
+          "itemId": "ManganeseOre",
+          "name": "珊瑚矿石",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "StainlessSteel",
+          "name": "六棱晶锭",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "Diamond",
+          "name": "钻石",
+          "chance": 30,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "202": {
+      "sourcePalId": "JetDragon",
+      "items": [
+        {
+          "itemId": "SkyIslandOre",
+          "name": "烈阳金属",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "Thermal_Core",
+          "name": "超高热核心",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Diamond",
+          "name": "钻石",
+          "chance": 30,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "203": {
+      "sourcePalId": "KingWhale",
+      "items": [
+        {
+          "itemId": "Diamond",
+          "name": "钻石",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone4",
+          "name": "究极帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "204": {
+      "sourcePalId": "WorldTreeDragon",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "5B": {
+      "sourcePalId": "BluePlatypus_Fire",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 50,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "7B": {
+      "sourcePalId": "FlyingManta_Thunder",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "9B": {
+      "sourcePalId": "KendoFrog_Dark",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Cloth",
+          "name": "布",
+          "chance": 25,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "15B": {
+      "sourcePalId": "Hedgehog_Ice",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "17B": {
+      "sourcePalId": "Penguin_Electric",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "18B": {
+      "sourcePalId": "CaptainPenguin_Black",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalItem_CaptainPenguin",
+          "name": "企丸王的羽饰",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "21B": {
+      "sourcePalId": "KingAlpaca_Ice",
+      "items": [
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 5,
+          "max": 5
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 3,
+          "max": 6
+        }
+      ]
+    },
+    "23B": {
+      "sourcePalId": "Monkey_Fire",
+      "items": [
+        {
+          "itemId": "Mushroom",
+          "name": "蘑菇",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "27B": {
+      "sourcePalId": "Bastet_Ice",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Sapphire",
+          "name": "蓝宝石",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "29B": {
+      "sourcePalId": "Kitsunebi_Ice",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    "30B": {
+      "sourcePalId": "NegativeOctopus_Neutral",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalItem_NegativeOctopus",
+          "name": "勾魂鱿的触手",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "32B": {
+      "sourcePalId": "Deer_Ground",
+      "items": [
+        {
+          "itemId": "Meat_Deer",
+          "name": "紫霞鹿的鹿肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "34B": {
+      "sourcePalId": "BerryGoat_Dark",
+      "items": [
+        {
+          "itemId": "Meat_BerryGoat",
+          "name": "灌木羊的香草肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "Berries",
+          "name": "红色野莓",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "37B": {
+      "sourcePalId": "TentacleTurtle_Ground",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "38B": {
+      "sourcePalId": "WindChimes_Ice",
+      "items": [
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "39B": {
+      "sourcePalId": "SweetsSheep_Ground",
+      "items": [
+        {
+          "itemId": "Sweet_Caramel",
+          "name": "焦糖棉花糖",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Wool",
+          "name": "羊毛",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "41B": {
+      "sourcePalId": "BlueDragon_Ice",
+      "items": [
+        {
+          "itemId": "Cloth",
+          "name": "布",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    "43B": {
+      "sourcePalId": "Kelpie_Fire",
+      "items": [
+        {
+          "itemId": "Meat_Kelpie",
+          "name": "水灵儿的鱼肉",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "44B": {
+      "sourcePalId": "PinkRabbit_Grass",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_PinkRabbit",
+          "name": "姬小兔的发带",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "CarrotSeeds",
+          "name": "胡萝卜种子",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Carrot",
+          "name": "胡萝卜",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "48B": {
+      "sourcePalId": "OctopusGirl_Neutral",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Meat_OctopusGirl",
+          "name": "墨沫姬的章鱼足",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "54B": {
+      "sourcePalId": "Kirin_Ice",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "55B": {
+      "sourcePalId": "SharkKid_Fire",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "56B": {
+      "sourcePalId": "Werewolf_Ice",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "63B": {
+      "sourcePalId": "FairyDragon_Water",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "64B": {
+      "sourcePalId": "BirdDragon_Ice",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Sapphire",
+          "name": "蓝宝石",
+          "chance": 2,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "72B": {
+      "sourcePalId": "IceSeal_Ground",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "73B": {
+      "sourcePalId": "LizardMan_Fire",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "TreasureBoxKey02",
+          "name": "银钥匙",
+          "chance": 2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_LizardMan",
+          "name": "朋克蜥的头冠",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "74B": {
+      "sourcePalId": "Gorilla_Ground",
+      "items": [
+        {
+          "itemId": "CopperOre",
+          "name": "金属矿石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "75B": {
+      "sourcePalId": "Serpent_Ground",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "CopperOre",
+          "name": "金属矿石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "76B": {
+      "sourcePalId": "RobinHood_Ground",
+      "items": [
+        {
+          "itemId": "PotatoSeeds",
+          "name": "土豆种薯",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Arrow",
+          "name": "箭",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "78B": {
+      "sourcePalId": "FoxMage_Dark",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "TechnologyBook_G1",
+          "name": "高等技术书",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "79B": {
+      "sourcePalId": "CatMage_Fire",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalItem_CatMage",
+          "name": "暗巫猫的体毛",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "TechnologyBook_G1",
+          "name": "高等技术书",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "80B": {
+      "sourcePalId": "HadesBird_Electric",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 3,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "81B": {
+      "sourcePalId": "GrassMinotaur_Ice",
+      "items": [
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "83B": {
+      "sourcePalId": "FengyunDeeper_Electric",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "84B": {
+      "sourcePalId": "FlowerDinosaur_Electric",
+      "items": [
+        {
+          "itemId": "TomatoSeeds",
+          "name": "番茄种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "CarrotSeeds",
+          "name": "胡萝卜种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "85B": {
+      "sourcePalId": "Ronin_Dark",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 4,
+          "max": 8
+        },
+        {
+          "itemId": "CopperIngot",
+          "name": "金属锭",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 40,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "87B": {
+      "sourcePalId": "GrassMammoth_Ice",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 5,
+          "max": 10
+        },
+        {
+          "itemId": "Meat_GrassMammoth",
+          "name": "森猛犸的巨兽肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "88B": {
+      "sourcePalId": "StuffedShark_Fire",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone",
+          "name": "小型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        }
+      ]
+    },
+    "89B": {
+      "sourcePalId": "FlowerDoll_Fire",
+      "items": [
+        {
+          "itemId": "poppy",
+          "name": "poppy",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "91B": {
+      "sourcePalId": "Baphomet_Dark_Oilrig",
+      "items": [
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "92B": {
+      "sourcePalId": "RaijinDaughter_Water",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalItem_RaijinDaughter",
+          "name": "雷鸣童子的云朵",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "93B": {
+      "sourcePalId": "FireKirin_Dark",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "94B": {
+      "sourcePalId": "LazyDragon_Electric",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 4
+        },
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Sapphire",
+          "name": "蓝宝石",
+          "chance": 5,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "96B": {
+      "sourcePalId": "ThunderBird_Ice",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "97B": {
+      "sourcePalId": "GhostAnglerfish_Fire",
+      "items": [
+        {
+          "itemId": "Bone",
+          "name": "骨头",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 50,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "98B": {
+      "sourcePalId": "ThunderDog_Ice",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "99B": {
+      "sourcePalId": "DarkScorpion_Ground",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Sapphire",
+          "name": "蓝宝石",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "100B": {
+      "sourcePalId": "CactusDoll_Dark",
+      "items": [
+        {
+          "itemId": "Fiber",
+          "name": "纤维",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "102B": {
+      "sourcePalId": "GrassPanda_Electric",
+      "items": [
+        {
+          "itemId": "Wood_Fine",
+          "name": "硬木材",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "103B": {
+      "sourcePalId": "WeaselDragon_Fire",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "105B": {
+      "sourcePalId": "VolcanoDragon_Ice",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "108B": {
+      "sourcePalId": "SakuraSaurus_Water",
+      "items": [
+        {
+          "itemId": "Meat_SakuraSaurus",
+          "name": "连理龙的恐龙肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "OnionSeeds",
+          "name": "洋葱种子",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "109B": {
+      "sourcePalId": "LazyCatfish_Gold",
+      "items": [
+        {
+          "itemId": "Meat_LazyCatfish",
+          "name": "趴趴鲶的鱼肉",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "Money",
+          "name": "金币",
+          "chance": 50,
+          "min": 100,
+          "max": 200
+        }
+      ]
+    },
+    "111B": {
+      "sourcePalId": "AmaterasuWolf_Dark",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "112B": {
+      "sourcePalId": "Manticore_Dark",
+      "items": [
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "113B": {
+      "sourcePalId": "HerculesBeetle_Ground",
+      "items": [
+        {
+          "itemId": "Honey",
+          "name": "蜂蜜",
+          "chance": 100,
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    "116B": {
+      "sourcePalId": "WhiteMoth_Neutral",
+      "items": [
+        {
+          "itemId": "Cloth2",
+          "name": "优质的布",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "118B": {
+      "sourcePalId": "MushroomDragon_Dark",
+      "items": [
+        {
+          "itemId": "Venom",
+          "name": "毒腺",
+          "chance": 100,
+          "min": 4,
+          "max": 8
+        },
+        {
+          "itemId": "PoisonMushroom",
+          "name": "不可思议的蘑菇",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "121B": {
+      "sourcePalId": "Umihebi_Fire",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "122B": {
+      "sourcePalId": "Suzaku_Water",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 5,
+          "max": 5
+        }
+      ]
+    },
+    "124B": {
+      "sourcePalId": "SkyDragon_Grass",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Berries",
+          "name": "红色野莓",
+          "chance": 60,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "128B": {
+      "sourcePalId": "SwordCutlassfish_Fire",
+      "items": [
+        {
+          "itemId": "Meat_SwordCutlassFish",
+          "name": "鞘刀鱼排",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "129B": {
+      "sourcePalId": "VolcanicMonster_Ice",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 3,
+          "max": 4
+        }
+      ]
+    },
+    "130B": {
+      "sourcePalId": "NightBlueHorse_Neutral",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "NightStone",
+          "name": "夜星砂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "131B": {
+      "sourcePalId": "RockBeast_Ice",
+      "items": [
+        {
+          "itemId": "SkyIslandOre",
+          "name": "烈阳金属",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "Quartz",
+          "name": "纯水晶",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        }
+      ]
+    },
+    "132B": {
+      "sourcePalId": "WhiteTiger_Ground",
+      "items": [
+        {
+          "itemId": "CopperOre",
+          "name": "金属矿石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "134B": {
+      "sourcePalId": "Yeti_Grass",
+      "items": [
+        {
+          "itemId": "Wood_Fine",
+          "name": "硬木材",
+          "chance": 100,
+          "min": 2,
+          "max": 5
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 20,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "CarrotSeeds",
+          "name": "胡萝卜种子",
+          "chance": 50,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "137B": {
+      "sourcePalId": "KingBahamut_Dragon",
+      "items": [
+        {
+          "itemId": "Coal",
+          "name": "石炭",
+          "chance": 100,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 5,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "138B": {
+      "sourcePalId": "GrassGolem_Dark",
+      "items": [
+        {
+          "itemId": "PoisonMushroom",
+          "name": "不可思议的蘑菇",
+          "chance": 100,
+          "min": 3,
+          "max": 5
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "141B": {
+      "sourcePalId": "ScorpionMan_Electric",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        }
+      ]
+    },
+    "142B": {
+      "sourcePalId": "CubeTurtle_Neutral",
+      "items": [
+        {
+          "itemId": "Eemerald",
+          "name": "绿宝石",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "148B": {
+      "sourcePalId": "GhostRabbit_Grass",
+      "items": [
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "149B": {
+      "sourcePalId": "BlackPuppy_Ice",
+      "items": [
+        {
+          "itemId": "IceOrgan",
+          "name": "结冰器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalUpgradeStone2",
+          "name": "中型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "151B": {
+      "sourcePalId": "IceNarwhal_Fire",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "ManganeseOre",
+          "name": "珊瑚矿石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "157B": {
+      "sourcePalId": "WhiteDeer_Dark",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Horn",
+          "name": "角",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "159B": {
+      "sourcePalId": "WingGolem_Fire",
+      "items": [
+        {
+          "itemId": "CopperOre",
+          "name": "金属矿石",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        }
+      ]
+    },
+    "163B": {
+      "sourcePalId": "ElecSnail_Ground",
+      "items": [
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "169B": {
+      "sourcePalId": "KingSunfish_Thunder",
+      "items": [
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "ElectricOrgan",
+          "name": "发电器官",
+          "chance": 100,
+          "min": 2,
+          "max": 2
+        }
+      ]
+    },
+    "171B": {
+      "sourcePalId": "GhostDragon_Fire",
+      "items": [
+        {
+          "itemId": "Leather",
+          "name": "皮革",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        },
+        {
+          "itemId": "PalOil",
+          "name": "优质帕鲁油",
+          "chance": 100,
+          "min": 5,
+          "max": 6
+        },
+        {
+          "itemId": "FireOrgan",
+          "name": "喷火器官",
+          "chance": 100,
+          "min": 4,
+          "max": 5
+        }
+      ]
+    },
+    "186B": {
+      "sourcePalId": "LilyQueen_Dark",
+      "items": [
+        {
+          "itemId": "Potion_High",
+          "name": "高品质恢复药",
+          "chance": 100,
+          "min": 1,
+          "max": 3
+        },
+        {
+          "itemId": "Poppy",
+          "name": "美丽花朵",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "TechnologyBook_G2",
+          "name": "革新技术书",
+          "chance": 10,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    "188B": {
+      "sourcePalId": "Horus_Water",
+      "items": [
+        {
+          "itemId": "PalFluid",
+          "name": "水栖帕鲁的黏液",
+          "chance": 100,
+          "min": 2,
+          "max": 4
+        }
+      ]
+    },
+    "195B": {
+      "sourcePalId": "NightLady_Dark",
+      "items": [
+        {
+          "itemId": "PalDarkParts",
+          "name": "暗黑碎片",
+          "chance": 100,
+          "min": 2,
+          "max": 3
+        },
+        {
+          "itemId": "Potion_High",
+          "name": "高品质恢复药",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    },
+    "200B": {
+      "sourcePalId": "IceHorse_Dark",
+      "items": [
+        {
+          "itemId": "Diamond",
+          "name": "钻石",
+          "chance": 100,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "itemId": "PalUpgradeStone3",
+          "name": "大型帕鲁之魂",
+          "chance": 100,
+          "min": 1,
+          "max": 2
+        }
+      ]
+    }
+  }
+}
