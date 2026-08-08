@@ -1,0 +1,29 @@
+name: Sync active skill data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5 * * 1'
+  push:
+    paths:
+      - 'scripts/sync-active-skills.mjs'
+      - '.github/workflows/sync-active-skills.yml'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-active-skills.mjs
+      - name: Commit synced data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/active-skills-local.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Sync exact active skill data"
+          git pull --rebase origin main
+          git push
