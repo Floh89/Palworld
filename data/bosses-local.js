@@ -13,5 +13,6 @@ window.BOSS_CATALOG={gameVersion:'1.0',updated:'2026-08-08',towers:[
 {id:'bellanoir-libero',name:'Bellanoir Libero',pal:'Bellanoir Libero',level:50,difficulties:['Normal','Ultra']},
 {id:'blazamut-ryu',name:'Blazamut Ryu',pal:'Blazamut Ryu',level:55,difficulties:['Normal','Ultra']},
 {id:'xenolord',name:'Xenolord',pal:'Xenolord',level:60,difficulties:['Normal','Ultra']},
-{id:'hartalis',name:'Hartalis',pal:'Hartalis',level:65,difficulties:['Normal','Ultra']}
+{id:'hartalis',name:'Hartalis',pal:'Hartalis',level:65,difficulties:['Normal','Ultra']},
+{id:'moon-lord',name:'Moon Lord',pal:'Moon Lord',level:50,levelByDifficulty:{Normal:50,Master:65},difficulties:['Normal','Master'],elementRule:'neutral',notes:['Normal: Level 50','Master: Level 65','Kein regulärer Paldeck-Eintrag; Element-Matchup wird neutral behandelt.']}
 ],sources:['Palworld Wiki: Towers','Palworld Wiki: Raid Bosses','Palworld 1.0 patch notes']};
