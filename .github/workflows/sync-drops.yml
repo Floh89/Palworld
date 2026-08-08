@@ -1,0 +1,28 @@
+name: Sync drop data
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5 * * 1'
+  push:
+    paths:
+      - 'scripts/sync-drops.mjs'
+      - '.github/workflows/sync-drops.yml'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-drops.mjs
+      - name: Commit synced data
+        run: |
+          if git diff --quiet -- data/drops-local.json; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/drops-local.json
+          git commit -m "Sync exact Pal drop data"
+          git push
