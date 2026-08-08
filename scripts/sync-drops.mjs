@@ -3,7 +3,7 @@ const BASE='https://raw.githubusercontent.com/zhudikangta/paltoolbox/main/PalToo
 const [dr,pr]=await Promise.all([fetch(BASE+'%E6%8E%89%E8%90%BD.json'),fetch(BASE+'%E5%B8%95%E9%B2%81.json')]);
 if(!dr.ok||!pr.ok)throw new Error(`Source HTTP drops=${dr.status} pals=${pr.status}`);
 const drops=await dr.json(),pals=await pr.json();
-const byId={};for(const p of pals){const id=String(p['图鉴编号']??'');if(!id)continue;const rec=drops.palDrops?.[p.id];if(!rec)continue;byId[id]={sourcePalId:p.id,items:(rec.items||[]).map(x=>({itemId:x.itemID,name:x.nameCN||x.itemID,chance:Number(x.rate),min:Number(x.min),max:Number(x.max)}))};}
-const out={meta:{gameVersion:'v1.0.0',generatedAt:new Date().toISOString(),source:'Palworld DT_PalDropItem-derived dataset',count:Object.keys(byId).length},byId};
-if(out.meta.count<250)throw new Error(`Expected >=250 Pal drop records, got ${out.meta.count}`);
-await fs.mkdir('data',{recursive:true});await fs.writeFile('data/drops-local.json',JSON.stringify(out,null,2)+'\n');console.log(`Wrote ${out.meta.count} Pal drop records`);
+const byId={};for(const p of pals){const num=p['图鉴编号'];if(num==null||Number(num)<=0)continue;const id=String(num)+String(p['图鉴后缀']||'');const rec=drops.palDrops?.[p.id];if(!rec)continue;byId[id]={sourcePalId:p.id,items:(rec.items||[]).map(x=>({itemId:x.itemID,name:x.nameCN||x.itemID,chance:Number(x.rate),min:Number(x.min),max:Number(x.max)}))};}
+const out={meta:{gameVersion:'v1.0.0',generatedAt:new Date().toISOString(),source:'Palworld DT_PalDropItem-derived dataset',count:Object.keys(byId).length,rawDropCharacters:drops.meta?.statistics?.totalDropCharacters||null},byId};
+if(out.meta.count<190)throw new Error(`Expected >=190 Pal drop records, got ${out.meta.count}`);
+await fs.mkdir('data',{recursive:true});await fs.writeFile('data/drops-local.json',JSON.stringify(out,null,2)+'\n');console.log(`Wrote ${out.meta.count} exact Pal drop records`);
