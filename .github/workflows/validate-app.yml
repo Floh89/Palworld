@@ -5,8 +5,11 @@ on:
     paths:
       - 'app.js'
       - 'index.html'
+      - 'styles.css'
+      - 'ui-*.css'
       - 'data/**'
       - 'scripts/validate-app.mjs'
+      - 'scripts/validate-builder-static.mjs'
       - '.github/workflows/validate-app.yml'
 jobs:
   validate:
@@ -17,3 +20,4 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/validate-app.mjs
+      - run: node scripts/validate-builder-static.mjs
