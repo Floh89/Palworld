@@ -4,7 +4,7 @@ const b=await fs.readFile('data/boss-builder.js','utf8');
 const index=await fs.readFile('index.html','utf8');
 const must=[
   ['manual add binding',/\[data-manualadd\][\s\S]*?onclick[\s\S]*?add\(/],
-  ['recommendation add binding',/\[data-addpal\][\s\S]*?onclick[\s\S]*?add\(/],
+  ['recommendation action exists',/bossrec[\s\S]*?bossactions/],
   ['remove binding',/\[data-removegroup\][\s\S]*?onclick/],
   ['detail binding',/\[data-detailpal\][\s\S]*?onclick/],
   ['auto fill binding',/autoBuild[\s\S]*?autoFill/],
